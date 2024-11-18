@@ -1,15 +1,217 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+# Kanzi Project .gitignore
+
+# Build output directories
 build/
-/captures
-.externalNativeBuild
-.cxx
+out/
+dist/
+
+# IDE-specific files
+*.iml
+*.idea/
+*.vscode/
+*.project
+*.cproject
+*.settings/
+
+# Compiled code
+*.class
+*.jar
+*.war
+*.ear
+*.aar
+*.so
+
+# Logs and caches
+logs/
+*.log
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.cache
+
+# Kanzi specific files
+*.kpf
+*.kpf.meta
+*.kpf.cache
+*.kpf.lock
+*.kpf.settings
+*.kpf.project
+*.kpf.workspace
+*.kpf.history
+*.kpf.log
+
+# Generated files
+gen/
+generated/
+out/
+
+# Dependency management
+node_modules/
+.gradle/
+.gradle-wrapper.jar
+gradle.properties
+gradlew
+gradlew.bat
+
+# Local configuration files
 local.properties
+settings.gradle
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Android Studio specific files
+captures/
+*.ipr
+*.iws
+*.iml
+*.idea/
+*.log
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyc
+*.pyo
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+
+# Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# Eclipse specific files
+*.launch
+*.externalToolBuilders/
+*.settings/
+*.metadata/
+.recommenders/
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# Sublime Text specific files
+*.sublime-project
+*.sublime-workspace
+
+# Intellij IDEA specific files
+.out/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.log
+
+# Other common files to ignore
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.iso
+*.dmg
+*.bin
+*.hex
+*.elf
+*.img
+*.rom
+*.raw
+*.vhd
+*.vmdk
+*.qcow2
+*.iso
+*.dmg
+*.bin
+*.hex
+*.elf
+*.img
+*.rom
+*.raw
+*.vhd
+*.vmdk
+*.qcow2
+
+# Specific to Kanzi
+kanzi-build/
+kanzi-cache/
+kanzi-temp/
+kanzi-logs/
+kanzi-output/
+kanzi-generated/
+kanzi-dist/
+kanzi-out/
+kanzi-gen/
+kanzi-workspace/
+kanzi-settings/
+kanzi-history/
+kanzi-log/
+
+# Specific to DevEco Studio
+*.hpm
+*.hpm.lock
+*.hpm.cache
+*.hpm.settings
+*.hpm.project
+*.hpm.workspace
+*.hpm.history
+*.hpm.log
+
+# Specific to other tools
+*.lock
+*.cache
+*.settings
+*.project
+*.workspace
+*.history
+*.log
+
+# Specific to other IDEs
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Specific to other build systems
+Makefile
+CMakeLists.txt
