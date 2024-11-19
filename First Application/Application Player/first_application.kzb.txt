@@ -1,0 +1,320 @@
+﻿Files:
+PropertyTypeLibrary/CubemapColor
+PropertyTypeLibrary/FirstApplication.Button2D.Image
+PropertyTypeLibrary/FirstApplication.Button2D.Image_1
+PropertyTypeLibrary/FirstApplication.Button2D.Image_2
+PropertyTypeLibrary/FirstApplication.Item.Text
+PropertyTypeLibrary/FirstApplication.Item.Texture
+PropertyTypeLibrary/FirstApplication.ToggleButton2D.Text
+PropertyTypeLibrary/offset
+PropertyTypeLibrary/SmartMaterials.LimitDirectionalLights
+PropertyTypeLibrary/SmartMaterials.LimitPointLights
+PropertyTypeLibrary/SmartMaterials.LimitSpotLights
+PropertyTypeLibrary/SmartMaterials.MorphLimitNormals
+PropertyTypeLibrary/SmartMaterials.MorphUseNormals
+PropertyTypeLibrary/SmartMaterials.MorphUseTangents
+PropertyTypeLibrary/smoothing
+PropertyTypeLibrary/Texture2
+PropertyTypeLibrary/TextureCube
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Animation Clips/Animation Clip
+Screens/Screen/RootPage/Navigation/NavigationMockup
+Screens/Screen/RootPage/Car/Viewport 2D/CarControl/Brakes
+Screens/Screen/RootPage/Car/Viewport 2D/CarControl/Roof
+Screens/Screen/RootPage/Car/Viewport 2D/CarControl/Suspension
+Screens/Screen/RootPage/Car/Viewport 2D/Car
+Screens/Screen/RootPage/Car/Viewport 2D/CarControl
+Screens/Screen/RootPage/Car/Viewport 2D
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item_1
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item_2
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item_3
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item_4
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Camera
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Directional Light
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D
+Screens/Screen/RootPage/Media/Viewport 2D/Scene/Point Light
+Screens/Screen/RootPage/Media/Viewport 2D/Scene
+Screens/Screen/RootPage/Media/Viewport 2D
+Screens/Screen/RootPage/Header/Stack Layout 2D/IconGPS
+Screens/Screen/RootPage/Header/Stack Layout 2D/IconPhone
+Screens/Screen/RootPage/Header/Stack Layout 2D/IconWiFi
+Screens/Screen/RootPage/Header/Stack Layout 2D/IconWifiBars
+Screens/Screen/RootPage/Header/Stack Layout 2D
+Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D/Navigation
+Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D/Car
+Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D/Media
+Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D
+Screens/Screen/RootPage/Footer/Toggle Button Group 2D
+Screens/Screen/RootPage/Navigation
+Screens/Screen/RootPage/Car
+Screens/Screen/RootPage/Media
+Screens/Screen/RootPage/Header
+Screens/Screen/RootPage/Footer
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/RootPage
+Screens/Screen
+Material Types/SmartVertexPhong/SmartVertexPhong::751D3CF8
+Material Types/SmartVertexPhong
+Material Types/VertexPhong
+Material Types/VertexPhongCube
+Material Types/VertexPhongMorph
+Material Types/VertexPhongSkinned
+Material Types/VertexPhongSkinnedMorph
+Material Types/VertexPhongTextured
+Material Types/VertexPhongTexturedCube
+Material Types/VertexPhongTexturedMorph
+Material Types/VertexPhongTexturedSkinned
+Material Types/VertexPhongTexturedSkinnedMorph
+Material Types/ColorTexture
+Material Types/CubemapSkybox
+Material Types/DefaultBlit
+Material Types/DefaultCubemapBlit
+Material Types/DefaultCubemapMipmapFilter
+Material Types/DefaultDepthMipmapFilter
+Material Types/DefaultMipmapFilter
+Material Types/FontDefault
+Material Types/MaskTexture
+Material Types/SweepTextures
+Material Types/Textured
+Material Types/VertexPhongTextured_1
+Material Types/VertexPhong_1
+Materials/SmartVertexPhongMaterial
+Materials/VertexPhongMaterial
+Materials/VertexPhongCubeMaterial
+Materials/VertexPhongMorphMaterial
+Materials/VertexPhongSkinnedMaterial
+Materials/VertexPhongSkinnedMorphMaterial
+Materials/VertexPhongTexturedMaterial
+Materials/VertexPhongTexturedCubeMaterial
+Materials/VertexPhongTexturedMorphMaterial
+Materials/VertexPhongTexturedSkinnedMaterial
+Materials/VertexPhongTexturedSkinnedMorphMaterial
+Materials/ColorTextureMaterial
+Materials/CubemapSkyboxMaterial
+Materials/DefaultBlitMaterial
+Materials/DefaultCubemapBlitMaterial
+Materials/DefaultCubemapMipmapFilterMaterial
+Materials/DefaultDepthMipmapFilterMaterial
+Materials/DefaultMipmapFilterMaterial
+Materials/FontDefaultMaterial
+Materials/MaskTextureMaterial
+Materials/SweepTexturesMaterial
+Materials/TexturedMaterial
+Materials/Shadow
+Materials/CarBlack
+Materials/CarRim
+Materials/CarTire
+Materials/CarChrome
+Materials/CarMainBody
+Materials/CarTaillight
+Materials/CarInterior
+Materials/CarLicense
+Materials/Headlights
+Materials/CarWindow
+Materials/CarHeadlight
+Brushes/DefaultBackground
+Brushes/Color Brush
+Mesh Data/Shadowplane
+Mesh Data/Car_Bottom
+Mesh Data/Car_Wheels
+Mesh Data/Car_Grill
+Mesh Data/Car_Bumper
+Mesh Data/CarBadge
+Mesh Data/Car_Taillights
+Mesh Data/Car_Interior
+Mesh Data/CarBody
+Mesh Data/Car_Windows
+Mesh Data/Car_HeadlightsGlass
+Trajectories/Circle Trajectory
+Prefabs/Car/Car/RootNode/Camera_Root/Camera
+Prefabs/Car/Car/RootNode/Camera_Root/Camera_Interest
+Prefabs/Car/Car/RootNode/Car/Car_Bottom
+Prefabs/Car/Car/RootNode/Car/Car_Wheels
+Prefabs/Car/Car/RootNode/Car/Car_Grill
+Prefabs/Car/Car/RootNode/Car/Car_Bumper
+Prefabs/Car/Car/RootNode/Car/CarBadge
+Prefabs/Car/Car/RootNode/Car/Car_Taillights
+Prefabs/Car/Car/RootNode/Car/Car_Interior
+Prefabs/Car/Car/RootNode/Car/CarBody
+Prefabs/Car/Car/RootNode/Car/Car_Windows
+Prefabs/Car/Car/RootNode/Car/Car_HeadlightsGlass
+Prefabs/Car/Car/RootNode/Camera_Root
+Prefabs/Car/Car/RootNode/Shadowplane
+Prefabs/Car/Car/RootNode/Car
+Prefabs/Car/Car/RootNode/Point1
+Prefabs/Car/Car/RootNode/Point
+Prefabs/Car/Car/RootNode
+Prefabs/Car/Car
+Prefabs/Toggle Button 2D/Toggle Button 2D/Stack Layout 2D/Menu
+Prefabs/Toggle Button 2D/Toggle Button 2D/Stack Layout 2D/Text Block 2D
+Prefabs/Toggle Button 2D/Toggle Button 2D/Stack Layout 2D
+Prefabs/Toggle Button 2D/Toggle Button 2D
+Prefabs/Button 2D/Button 2D/Image
+Prefabs/Button 2D/Button 2D
+Prefabs/Item/Item/Album/PrimitiveMeshInternal
+Prefabs/Item/Item/Shadow/PrimitiveMeshInternal
+Prefabs/Item/Item/PrimitiveMeshInternal
+Prefabs/Item/Item/Album
+Prefabs/Item/Item/Description
+Prefabs/Item/Item/Shadow
+Prefabs/Item/Item
+Prefabs/Car
+Prefabs/Toggle Button 2D
+Prefabs/Button 2D
+Prefabs/Item
+Page Transitions/Default Transitions
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_1x1.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posX.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negX.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posY.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negY.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posZ.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negZ.png
+Resource Files/Images/mipmaps/DefaultTextureImage_512x512.png
+Resource Files/Images/mipmaps/DefaultTextureImage_256x256.png
+Resource Files/Images/mipmaps/DefaultTextureImage_128x128.png
+Resource Files/Images/mipmaps/DefaultTextureImage_64x64.png
+Resource Files/Images/mipmaps/DefaultTextureImage_32x32.png
+Resource Files/Images/mipmaps/DefaultTextureImage_16x16.png
+Resource Files/Images/mipmaps/DefaultTextureImage_8x8.png
+Resource Files/Images/mipmaps/DefaultTextureImage_4x4.png
+Resource Files/Images/mipmaps/DefaultTextureImage_2x2.png
+Resource Files/Images/mipmaps/DefaultTextureImage_1x1.png
+Resource Files/Images/mipmaps/CarShadowGroundA_512x1024.png
+Resource Files/Images/mipmaps/CarShadowGroundA_256x512.png
+Resource Files/Images/mipmaps/CarShadowGroundA_128x256.png
+Resource Files/Images/mipmaps/CarShadowGroundA_64x128.png
+Resource Files/Images/mipmaps/CarShadowGroundA_32x64.png
+Resource Files/Images/mipmaps/CarShadowGroundA_16x32.png
+Resource Files/Images/mipmaps/CarShadowGroundA_8x16.png
+Resource Files/Images/mipmaps/CarShadowGroundA_4x8.png
+Resource Files/Images/mipmaps/CarShadowGroundA_2x4.png
+Resource Files/Images/mipmaps/CarShadowGroundA_1x2.png
+Resource Files/Images/mipmaps/CarShadowGroundA_1x1.png
+Resource Files/Images/mipmaps/360Car_Wheel_512x512.png
+Resource Files/Images/mipmaps/360Car_Wheel_256x256.png
+Resource Files/Images/mipmaps/360Car_Wheel_128x128.png
+Resource Files/Images/mipmaps/360Car_Wheel_64x64.png
+Resource Files/Images/mipmaps/360Car_Wheel_32x32.png
+Resource Files/Images/mipmaps/360Car_Wheel_16x16.png
+Resource Files/Images/mipmaps/360Car_Wheel_8x8.png
+Resource Files/Images/mipmaps/360Car_Wheel_4x4.png
+Resource Files/Images/mipmaps/360Car_Wheel_2x2.png
+Resource Files/Images/mipmaps/360Car_Wheel_1x1.png
+Resource Files/Images/mipmaps/360Car_Tire_1024x1024.png
+Resource Files/Images/mipmaps/360Car_Tire_512x512.png
+Resource Files/Images/mipmaps/360Car_Tire_256x256.png
+Resource Files/Images/mipmaps/360Car_Tire_128x128.png
+Resource Files/Images/mipmaps/360Car_Tire_64x64.png
+Resource Files/Images/mipmaps/360Car_Tire_32x32.png
+Resource Files/Images/mipmaps/360Car_Tire_16x16.png
+Resource Files/Images/mipmaps/360Car_Tire_8x8.png
+Resource Files/Images/mipmaps/360Car_Tire_4x4.png
+Resource Files/Images/mipmaps/360Car_Tire_2x2.png
+Resource Files/Images/mipmaps/360Car_Tire_1x1.png
+Resource Files/Images/mipmaps/360Car_MainBody_2048x2048.png
+Resource Files/Images/mipmaps/360Car_MainBody_1024x1024.png
+Resource Files/Images/mipmaps/360Car_MainBody_512x512.png
+Resource Files/Images/mipmaps/360Car_MainBody_256x256.png
+Resource Files/Images/mipmaps/360Car_MainBody_128x128.png
+Resource Files/Images/mipmaps/360Car_MainBody_64x64.png
+Resource Files/Images/mipmaps/360Car_MainBody_32x32.png
+Resource Files/Images/mipmaps/360Car_MainBody_16x16.png
+Resource Files/Images/mipmaps/360Car_MainBody_8x8.png
+Resource Files/Images/mipmaps/360Car_MainBody_4x4.png
+Resource Files/Images/mipmaps/360Car_MainBody_2x2.png
+Resource Files/Images/mipmaps/360Car_MainBody_1x1.png
+Resource Files/Images/DefaultBackground.png
+Resource Files/Images/DefaultTextureImage.png
+Resource Files/Images/Album01.png
+Resource Files/Images/Album02.png
+Resource Files/Images/Album03.png
+Resource Files/Images/Album04.png
+Resource Files/Images/Album05.png
+Resource Files/Images/IconGPS.png
+Resource Files/Images/IconPhone.png
+Resource Files/Images/IconWiFi.png
+Resource Files/Images/IconWifiBars.png
+Resource Files/Images/Menu.png
+Resource Files/Images/NavigationMockup.png
+Resource Files/Images/ShadowMedia.png
+Resource Files/Images/StateBrakes.png
+Resource Files/Images/StateRoof.png
+Resource Files/Images/StateSuspension.png
+Resource Files/Images/CarShadowGroundA.png
+Resource Files/Images/360Car_Wheel.png
+Resource Files/Images/360Car_Tire.png
+Resource Files/Images/360Car_MainBody.png
+Textures/DefaultBackground
+Textures/Default Texture
+Textures/Default Cubemap Texture
+Textures/Album01
+Textures/Album02
+Textures/Album03
+Textures/Album04
+Textures/Album05
+Textures/IconGPS
+Textures/IconPhone
+Textures/IconWiFi
+Textures/IconWifiBars
+Textures/Menu
+Textures/NavigationMockup
+Textures/ShadowMedia
+Textures/StateBrakes
+Textures/StateRoof
+Textures/StateSuspension
+Textures/CarShadowGroundA
+Textures/360Car_Wheel
+Textures/360Car_Tire
+Textures/360Car_MainBody
+Styles/Text Block 2D Style
+State Managers/Camera_Root State Manager
+/first_application
