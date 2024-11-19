@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.rightware.gradle.kanzi'
+
+android {
+    namespace 'com.rightware.kanzi.gettingstarted'
+    compileSdk 28
+
+    defaultConfig {
+        applicationId "com.rightware.kanzi.gettingstarted"
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        sourceSets {
+            main {
+                assets.srcDirs = [new File(rootDir, "../../../bin")]
+            }
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DKANZI_LINK_FREETYPE=ON"
+                arguments "-DKANZI_LINK_ITYPE=OFF"
+            }
+        }
+
+        if (!project.hasProperty("stripNativeLibs")) {
+            packagingOptions {
+                doNotStrip '**/*.so'
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    ndkVersion "21.3.6528147"
+
+    externalNativeBuild {
+        cmake {
+            path file("$rootDir/../../../CMakeLists.txt")
+        }
+    }
+
+    lintOptions {
+        disable 'ExpiredTargetSdkVersion'
+    }
+}
+
+dependencies {
+    implementation 'com.rightware.kanzi:kanziruntime@aar'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+}
