@@ -1,0 +1,57 @@
+/* This is a helper script for locating Kanzi Engine and Kanzi Gradle plugins. */
+
+ext.getKanzi = { ->
+    // In local.properties "kanzi.home" property
+    try {
+        Properties localProperties = new Properties()
+        localProperties.load(rootProject.file("local.properties").newDataInputStream())
+        if (localProperties.get('kanzi.home'))
+            return file(localProperties.get('kanzi.home'))
+    } catch (FileNotFoundException ignored) {}
+
+    if (properties.get('kanzi.home')) {
+        return file(properties.get('kanzi.home'))
+    }
+
+    // Environment variable "KANZI_HOME"
+    if (System.env.KANZI_HOME) {
+        return file(System.env.KANZI_HOME)
+    }
+
+    // Higher in the directory hierarchy (slow)
+    try {
+        def path = new File(projectDir.toString()).absoluteFile
+        while (path.parentFile != null) {
+            if (new File(path.toString() + File.separatorChar + "Engine" + File.separatorChar + "version.txt").exists()) {
+                return path
+            }
+            path = new File(path.toString() + File.separatorChar + "..").getCanonicalFile()
+        }
+    } catch (all) {}
+    throw new FileNotFoundException("Could not determine the Kanzi workspace.\nTo set the Kanzi workspace, you can:\n\n- In the local.properties file set the kanzi.home property to point to the Kanzi workspace directory.\n- Set the Kanzi workspace directory in the KANZI_HOME environment variable, or\n- Move this project directory to the KanziWorkspace/Projects directory.")
+}
+
+ext.getKanziAndroidPath = { ->
+    def androidPath
+    def kanziPath = getKanzi().toString()
+    try {
+        androidPath = new File(kanziPath + File.separatorChar + "Engine" + File.separatorChar + "lib" + File.separatorChar + "android")
+        if (androidPath.isDirectory()) {
+            return androidPath
+        }
+    } catch (all) {}
+    throw new FileNotFoundException("Error: Could not find or access Kanzi's Android libraries directory: " + androidPath)
+}
+
+ext.getKanziPlugins = { ->
+    def pluginPath
+    def kanziAndroidPath = getKanziAndroidPath().toString()
+    try {
+        pluginPath = new File(kanziAndroidPath + File.separatorChar + "gradle")
+        if (pluginPath.isDirectory()) {
+            println("Using Gradle plugin directory: " + pluginPath)
+            return pluginPath
+        }
+    } catch (all) {}
+    throw new FileNotFoundException("Error: Could not find or access Kanzi's Gradle plugin directory: " + pluginPath)
+}

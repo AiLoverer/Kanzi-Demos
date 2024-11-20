@@ -21,7 +21,11 @@
                       <d2p1:string>/Screens/Screen/RootPage/Car/Viewport 2D</d2p1:string>
                       <d2p1:string>/Screens/Screen/RootPage/Car/Viewport 2D/Car (Car)</d2p1:string>
                       <d2p1:string>/Screens/Screen/RootPage/Media</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage/Media/Viewport 2D</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage/Media/Viewport 2D/Scene</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage/Header</d2p1:string>
                       <d2p1:string>/Screens/Screen/RootPage/Header/Stack Layout 2D</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage/Footer</d2p1:string>
                       <d2p1:string>/Screens/Screen/RootPage/Footer/Toggle Button Group 2D</d2p1:string>
                       <d2p1:string>/Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D</d2p1:string>
                     </d10p1:ExpandedNodePaths>
@@ -37,20 +41,24 @@
                             <d2p1:string>/Screens/Screen/RootPage/Car/Viewport 2D</d2p1:string>
                             <d2p1:string>/Screens/Screen/RootPage/Car/Viewport 2D/Car (Car)</d2p1:string>
                             <d2p1:string>/Screens/Screen/RootPage/Media</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Media/Viewport 2D</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Media/Viewport 2D/Scene</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Header</d2p1:string>
                             <d2p1:string>/Screens/Screen/RootPage/Header/Stack Layout 2D</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Footer</d2p1:string>
                             <d2p1:string>/Screens/Screen/RootPage/Footer/Toggle Button Group 2D</d2p1:string>
                             <d2p1:string>/Screens/Screen/RootPage/Footer/Toggle Button Group 2D/Stack Layout 2D</d2p1:string>
                           </d10p1:ExpandedItemPaths>
                           <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
                           <d10p1:SelectedItemPaths>
-                            <d2p1:string>/Screens/Screen/RootPage/Media</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Footer</d2p1:string>
                           </d10p1:SelectedItemPaths>
                         </d2p1:Value>
                       </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
                     </d10p1:RootSpecificDataItems>
                     <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
                     <d10p1:SelectedNodePaths>
-                      <d2p1:string>/Screens/Screen/RootPage/Media</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage/Footer</d2p1:string>
                     </d10p1:SelectedNodePaths>
                   </d2p1:Value>
                 </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
@@ -140,7 +148,7 @@
                   <d8p1:ContentType>ABSOLUTE</d8p1:ContentType>
                   <d8p1:IsResourceReference>false</d8p1:IsResourceReference>
                   <d8p1:referredItemPath>
-                    <d8p1:pathString>First Application/Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/</d8p1:pathString>
+                    <d8p1:pathString>First Application/Screens/Screen/RootPage/Media/Viewport 2D/Scene/Trajectory List Box 3D/Item_4/</d8p1:pathString>
                   </d8p1:referredItemPath>
                   <d8p1:textContent
                     i:nil="true" />
@@ -159,10 +167,10 @@
                   <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
                     <d10p1:ExpandedEditorNodePaths />
                     <d10p1:ExpandedNodePaths>
-                      <d2p1:string>/Trajectory List Box 3D</d2p1:string>
-                      <d2p1:string>/Trajectory List Box 3D/Triggers</d2p1:string>
-                      <d2p1:string>/Trajectory List Box 3D/Animation</d2p1:string>
-                      <d2p1:string>/Trajectory List Box 3D/Input Manipulators</d2p1:string>
+                      <d2p1:string>/Footer</d2p1:string>
+                      <d2p1:string>/Footer/Triggers</d2p1:string>
+                      <d2p1:string>/Footer/Animation</d2p1:string>
+                      <d2p1:string>/Footer/Input Manipulators</d2p1:string>
                     </d10p1:ExpandedNodePaths>
                     <d10p1:RootSpecificDataItems>
                       <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
