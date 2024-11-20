@@ -36,10 +36,10 @@
 - 如何使用状态管理器控制活动节点的激活状态
 
 <img src="./res/ab-left-area.gif" alt="效果图" width="900" height="800">
-## Components
+
+## Components  
 在本仓库的这一步中主要学习自定义控件：
 - Toggle Button  
 
 ![效果图](./res/toggle-button-final.gif)
 
-- Activity
