@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-20 09:26:30
+ * @LastEditTime: 2024-11-21 11:20:54
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -17,7 +17,9 @@
 - 状态切换 
 - 属性控制 
 - 资源加载 
-![效果图](./res/getting-started-completed.gif)  
+
+<img src="./res/getting-started-completed.gif" alt="效果图" width="850" height="550">
+
 ## First Application
 在本仓库的这一步中主要学习：  
 - 属性
@@ -35,11 +37,19 @@
 
 - 如何使用状态管理器控制活动节点的激活状态
 
-<img src="./res/ab-left-area.gif" alt="效果图" width="900" height="800">
+<img src="./res/ab-left-area.gif" alt="效果图" width="850" height="550">
+
+## Data Triger
+在本仓库的这一步中主要学习：
+- 如何使用条件来控制应用程序 UI
+- 如何通过创建弹出窗口来控制组成 UI 的活动的激活状态，应用程序仅在满足数据触发器中的条件时才会显示这些弹出窗口
+- - 绑定表达式的形式在数据触发器中设置条件
+
+<img src="./res/dt-complete.gif" alt="效果图" width="850" height="550">
 
 ## Components  
 在本仓库的这一步中主要学习自定义控件：
 - Toggle Button  
 
-![效果图](./res/toggle-button-final.gif)
+<img src="./res/toggle-button-final.gif" alt="效果图" width="850" height="550">
 
