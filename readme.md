@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-22 11:28:16
+ * @LastEditTime: 2024-11-22 15:41:25
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -43,7 +43,7 @@
 在本仓库的这一步中主要学习：
 - 如何使用条件来控制应用程序 UI
 - 如何通过创建弹出窗口来控制组成 UI 的活动的激活状态，应用程序仅在满足数据触发器中的条件时才会显示这些弹出窗口
-- - 绑定表达式的形式在数据触发器中设置条件
+- 绑定表达式的形式在数据触发器中设置条件
 
 <img src="./res/dt-complete.gif" alt="效果图" width="850" height="550">
 
@@ -66,3 +66,10 @@
 - 数据驱动的独占活动主机和列表数据源来创建一个设置面板  
 
 <img src="./res/controls-data-source.gif" alt="效果图" width="850" height="320">
+
+## Multi-Project  
+在本仓库的这一步中主要学习组合多个 Kanzi Studio 项目来创建单个 Kanzi 应用程序：
+- 使用公共资源（不用的资源尽量删除）
+- 一个项目控制另外一个项目控件
+
+<img src="./res/completed.png" alt="效果图" width="850" height="320">

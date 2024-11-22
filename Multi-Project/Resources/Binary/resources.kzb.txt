@@ -1,0 +1,14 @@
+﻿Files:
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen
+Brushes/White alpha 3
+Brushes/White alpha 5
+Brushes/White alpha 64
+Brushes/White alpha 2
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Resource Files/Fonts/exo2-medium.ttf
+Resource Files/Fonts/exo2.0-black.otf
+Styles/Text Block 2D Style
+Font Families/Exo 2
+Font Families/Exo 2.0
+/resources

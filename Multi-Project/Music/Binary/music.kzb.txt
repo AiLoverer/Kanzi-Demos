@@ -1,0 +1,38 @@
+﻿Files:
+PropertyTypeLibrary/Music.Music.Progress
+PropertyTypeLibrary/ProgressBar.ProgressBarProgress
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Animation Clips/Animation Clip
+Screens/Screen/RootPage/Music
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/RootPage
+Screens/Screen
+Brushes/Background
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D/Stack Layout 2D/Song
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D/Stack Layout 2D/Artist
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D/Stack Layout 2D/Progress Bar
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D/Album
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D/Stack Layout 2D
+Prefabs/Music/Music/Grid Layout 2D/Icon
+Prefabs/Music/Music/Grid Layout 2D/Grid Layout 2D
+Prefabs/Music/Music/Grid Layout 2D
+Prefabs/Music/Music
+Prefabs/Progress Bar/Progress Bar/RailEndLeft
+Prefabs/Progress Bar/Progress Bar/Rail
+Prefabs/Progress Bar/Progress Bar/RailFull
+Prefabs/Progress Bar/Progress Bar/RailEndRight
+Prefabs/Progress Bar/Progress Bar
+Prefabs/Music
+Prefabs/Progress Bar
+Resource Files/Images/Album art.png
+Resource Files/Images/Icon Music.png
+Resource Files/Images/Rail.png
+Resource Files/Images/RailEnd.png
+Resource Files/Images/RailFull.png
+Textures/Album art
+Textures/Icon Music
+Textures/Rail
+Textures/RailEnd
+Textures/RailFull
+Styles/Text Block 2D Style
+/music

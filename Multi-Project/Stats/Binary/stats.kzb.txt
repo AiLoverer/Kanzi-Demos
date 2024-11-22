@@ -1,0 +1,35 @@
+﻿Files:
+Screens/Screen/RootPage/Stats
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/RootPage
+Screens/Screen
+Brushes/Background
+Brushes/Stats background
+Prefabs/Stats/Stats/Stack Layout 2D/Icon
+Prefabs/Stats/Stats/Stack Layout 2D/Stats
+Prefabs/Stats/Stats/Grid Layout 2D/Distance/Unit
+Prefabs/Stats/Stats/Grid Layout 2D/Distance/Value
+Prefabs/Stats/Stats/Grid Layout 2D/Distance/Caption
+Prefabs/Stats/Stats/Grid Layout 2D/Charge/Unit
+Prefabs/Stats/Stats/Grid Layout 2D/Charge/Value
+Prefabs/Stats/Stats/Grid Layout 2D/Charge/Caption
+Prefabs/Stats/Stats/Grid Layout 2D/Speed/Unit
+Prefabs/Stats/Stats/Grid Layout 2D/Speed/Value
+Prefabs/Stats/Stats/Grid Layout 2D/Speed/Caption
+Prefabs/Stats/Stats/Grid Layout 2D/Heading
+Prefabs/Stats/Stats/Grid Layout 2D/Divider
+Prefabs/Stats/Stats/Grid Layout 2D/Distance
+Prefabs/Stats/Stats/Grid Layout 2D/Charge
+Prefabs/Stats/Stats/Grid Layout 2D/Speed
+Prefabs/Stats/Stats/Car
+Prefabs/Stats/Stats/Stack Layout 2D
+Prefabs/Stats/Stats/Grid Layout 2D
+Prefabs/Stats/Stats
+Prefabs/Stats
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Resource Files/Images/Icon Stats.png
+Resource Files/Images/Stats background.png
+Textures/Icon Stats
+Textures/Stats background
+Styles/Text Block 2D Style
+/stats

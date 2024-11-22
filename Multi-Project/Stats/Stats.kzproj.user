@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualLayoutSetProjectSpecificData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Base.VirtualLayouts">
+  <VirtualLayoutProjectSpecificData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfguidVirtualLayoutProjectSpecificDataw36UbEVW>
+      <d2p1:Key>f774b42a-8e31-4ed7-96f7-74c3c2f8b342</d2p1:Key>
+      <d2p1:Value>
+        <WindowProjectSpecificData>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems>
+                <d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                  <d2p1:Key>FULL</d2p1:Key>
+                  <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
+                    <d10p1:ExpandedEditorNodePaths />
+                    <d10p1:ExpandedNodePaths>
+                      <d2p1:string>/Screens</d2p1:string>
+                      <d2p1:string>/Screens/Screen</d2p1:string>
+                      <d2p1:string>/Screens/Screen/RootPage</d2p1:string>
+                    </d10p1:ExpandedNodePaths>
+                    <d10p1:RootSpecificDataItems>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Center stack/Screens</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Screens</d2p1:string>
+                            <d2p1:string>/Screens/Screen</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Music (Music)</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Screens/Screen/RootPage/Stats (Stats)</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Music/Screens</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Screens</d2p1:string>
+                            <d2p1:string>/Screens/Screen</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Music (Music)</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage/Music (Music)/Grid Layout 2D</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Screens/Screen/RootPage/Music (Music)/Grid Layout 2D/Icon</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Resources/Screens</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Screens</d2p1:string>
+                            <d2p1:string>/Screens/Screen</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Weather/Screens</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Screens</d2p1:string>
+                            <d2p1:string>/Screens/Screen</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Screens</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Screens</d2p1:string>
+                            <d2p1:string>/Screens/Screen</d2p1:string>
+                            <d2p1:string>/Screens/Screen/RootPage</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                    </d10p1:RootSpecificDataItems>
+                    <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                    <d10p1:SelectedNodePaths />
+                  </d2p1:Value>
+                </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                <d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                  <d2p1:Key>LAYERS</d2p1:Key>
+                  <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
+                    <d10p1:ExpandedEditorNodePaths />
+                    <d10p1:ExpandedNodePaths>
+                      <d2p1:string>/Stats</d2p1:string>
+                      <d2p1:string>/Stats/Stats</d2p1:string>
+                    </d10p1:ExpandedNodePaths>
+                    <d10p1:RootSpecificDataItems>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Prefabs/Stats</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Stats</d2p1:string>
+                            <d2p1:string>/Stats/Stats</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Stats/Stats/Car</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                    </d10p1:RootSpecificDataItems>
+                    <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                    <d10p1:SelectedNodePaths>
+                      <d2p1:string>/Stats/Stats/Car</d2p1:string>
+                    </d10p1:SelectedNodePaths>
+                  </d2p1:Value>
+                </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+              </d7p2:ViewModeDataItems>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Property_Editor</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.PropertyEditing"
+              i:type="d7p2:PropertyEditorState.ProjectDependentData">
+              <d7p2:ContentType>PROPERTIES</d7p2:ContentType>
+              <d7p2:ReferencesToEditedItems xmlns:d8p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
+                <d8p1:ProjectItemReference>
+                  <d8p1:ContentType>ABSOLUTE</d8p1:ContentType>
+                  <d8p1:IsResourceReference>false</d8p1:IsResourceReference>
+                  <d8p1:referredItemPath>
+                    <d8p1:pathString>Stats/Prefabs/Stats/Stats/</d8p1:pathString>
+                  </d8p1:referredItemPath>
+                  <d8p1:textContent
+                    i:nil="true" />
+                </d8p1:ProjectItemReference>
+              </d7p2:ReferencesToEditedItems>
+              <d7p2:UseProjectItemSelectionAsSource>true</d7p2:UseProjectItemSelectionAsSource>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>New_NodeComponents_Editor</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems>
+                <d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                  <d2p1:Key>HIERARCHICAL_EDITOR</d2p1:Key>
+                  <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
+                    <d10p1:ExpandedEditorNodePaths />
+                    <d10p1:ExpandedNodePaths>
+                      <d2p1:string>/Stats</d2p1:string>
+                      <d2p1:string>/Stats/Triggers</d2p1:string>
+                      <d2p1:string>/Stats/Animation</d2p1:string>
+                      <d2p1:string>/Stats/Input Manipulators</d2p1:string>
+                    </d10p1:ExpandedNodePaths>
+                    <d10p1:RootSpecificDataItems>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Center stack/Screens/Screen/RootPage/Weather</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Weather (Weather)</d2p1:string>
+                            <d2p1:string>/Weather (Weather)/Triggers</d2p1:string>
+                            <d2p1:string>/Weather (Weather)/Animation</d2p1:string>
+                            <d2p1:string>/Weather (Weather)/Input Manipulators</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Center stack/Screens/Screen/RootPage/Stats</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Stats (Stats)</d2p1:string>
+                            <d2p1:string>/Stats (Stats)/Triggers</d2p1:string>
+                            <d2p1:string>/Stats (Stats)/Animation</d2p1:string>
+                            <d2p1:string>/Stats (Stats)/Input Manipulators</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Prefabs/Stats/Stats/Car</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Car</d2p1:string>
+                            <d2p1:string>/Car/Triggers</d2p1:string>
+                            <d2p1:string>/Car/Animation</d2p1:string>
+                            <d2p1:string>/Car/Input Manipulators</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Prefabs/Stats/Stats</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Stats</d2p1:string>
+                            <d2p1:string>/Stats/Triggers</d2p1:string>
+                            <d2p1:string>/Stats/Animation</d2p1:string>
+                            <d2p1:string>/Stats/Input Manipulators</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Prefabs/Stats/Stats/Stack Layout 2D/Icon</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Icon</d2p1:string>
+                            <d2p1:string>/Icon/Triggers</d2p1:string>
+                            <d2p1:string>/Icon/Animation</d2p1:string>
+                            <d2p1:string>/Icon/Input Manipulators</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                    </d10p1:RootSpecificDataItems>
+                    <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                    <d10p1:SelectedNodePaths />
+                  </d2p1:Value>
+                </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+              </d7p2:ViewModeDataItems>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Global_Resources</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems>
+                <d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                  <d2p1:Key>RESOURCES</d2p1:Key>
+                  <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
+                    <d10p1:ExpandedEditorNodePaths />
+                    <d10p1:ExpandedNodePaths>
+                      <d2p1:string>/Resources objects</d2p1:string>
+                      <d2p1:string>/Resources objects/Project References</d2p1:string>
+                      <d2p1:string>/Resources objects/Resource Files</d2p1:string>
+                      <d2p1:string>/Resources objects/Resource Files/Images</d2p1:string>
+                    </d10p1:ExpandedNodePaths>
+                    <d10p1:RootSpecificDataItems>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Center stack/Resources objects</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Resources objects</d2p1:string>
+                            <d2p1:string>/Resources objects/Project References</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>48</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Resources objects/Project References/Stats</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Music/Resources objects</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Resources objects</d2p1:string>
+                            <d2p1:string>/Resources objects/Project References</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Resources objects/Project References/Resources</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Resources/Resources objects</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Resources objects</d2p1:string>
+                            <d2p1:string>/Resources objects/Project References</d2p1:string>
+                            <d2p1:string>/Resources objects/Resource Files</d2p1:string>
+                            <d2p1:string>/Resources objects/Resource Files/Fonts</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>170</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Resources objects/Resource Files/Fonts/Exo 2.0 Black (exo2.0-black.otf)</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Weather/Resources objects</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Resources objects</d2p1:string>
+                            <d2p1:string>/Resources objects/Project References</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>48</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Resources objects/Project References/Resources</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Resources objects</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Resources objects</d2p1:string>
+                            <d2p1:string>/Resources objects/Project References</d2p1:string>
+                            <d2p1:string>/Resources objects/Resource Files</d2p1:string>
+                            <d2p1:string>/Resources objects/Resource Files/Images</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>192</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Resources objects/Resource Files/Images/Stats background.png</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                    </d10p1:RootSpecificDataItems>
+                    <d10p1:ScrollPosition>192</d10p1:ScrollPosition>
+                    <d10p1:SelectedNodePaths>
+                      <d2p1:string>/Resources objects/Resource Files/Images/Stats background.png</d2p1:string>
+                    </d10p1:SelectedNodePaths>
+                  </d2p1:Value>
+                </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+              </d7p2:ViewModeDataItems>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Dictionaries</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base"
+              i:nil="true" />
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Materials</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Textures</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_State_Managers</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Prefabs</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems>
+                <d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+                  <d2p1:Key>PREFABS</d2p1:Key>
+                  <d2p1:Value xmlns:d10p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
+                    <d10p1:ExpandedEditorNodePaths />
+                    <d10p1:ExpandedNodePaths>
+                      <d2p1:string>/Prefabs</d2p1:string>
+                      <d2p1:string>/Prefabs/Stats</d2p1:string>
+                      <d2p1:string>/Prefabs/Stats/Stack Layout 2D</d2p1:string>
+                    </d10p1:ExpandedNodePaths>
+                    <d10p1:RootSpecificDataItems>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Center stack/Prefabs</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths />
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Music/Prefabs</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths />
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Resources/Prefabs</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths />
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Weather/Prefabs</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths />
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths />
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                      <d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                        <d2p1:Key>/Stats/Prefabs</d2p1:Key>
+                        <d2p1:Value>
+                          <d10p1:ExpandedEditorItemPaths />
+                          <d10p1:ExpandedItemPaths>
+                            <d2p1:string>/Prefabs</d2p1:string>
+                            <d2p1:string>/Prefabs/Stats</d2p1:string>
+                            <d2p1:string>/Prefabs/Stats/Stack Layout 2D</d2p1:string>
+                          </d10p1:ExpandedItemPaths>
+                          <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                          <d10p1:SelectedItemPaths>
+                            <d2p1:string>/Prefabs/Stats</d2p1:string>
+                          </d10p1:SelectedItemPaths>
+                        </d2p1:Value>
+                      </d2p1:KeyValueOfstringProjectExplorerState.ViewModeState.HierarchicalEditorViewModeDataifjOcRyb>
+                    </d10p1:RootSpecificDataItems>
+                    <d10p1:ScrollPosition>0</d10p1:ScrollPosition>
+                    <d10p1:SelectedNodePaths>
+                      <d2p1:string>/Prefabs/Stats</d2p1:string>
+                    </d10p1:SelectedNodePaths>
+                  </d2p1:Value>
+                </d2p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
+              </d7p2:ViewModeDataItems>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Animations</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Composing</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Resource_Files</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Component_Types</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Bookmarks</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Property_Types</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Meshes</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Project_Explorer_Trajectories</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.ProjectView"
+              i:type="d7p2:ProjectExplorerState.ProjectDependentData">
+              <d7p2:ViewModeDataItems />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>Assets</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.Assets"
+              i:type="d7p2:AssetsWindowState.ProjectSpecificData">
+              <d7p2:FilteredTypeNames />
+              <d7p2:SearchText
+                i:nil="true" />
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>PageHierarchyEditor</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Plugin"
+              i:type="d7p2:PluginWindowHostState.ProjectDependentData">
+              <d7p2:TypeName>Rightware.Kanzi.Studio.Plugins.PageEditor.Hierarchy.HierarchyPluginWindowState, PageEditor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</d7p2:TypeName>
+              <d7p2:XMLData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;HierarchyPluginWindowState xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/PageEditor.Hierarchy"&gt;
+  &lt;editedItemPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.PluginInterface" /&gt;
+  &lt;Settings xmlns:d2p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.Plugins.PageEditor.Hierarchy"&gt;
+    &lt;isAutoLayoutEnabled xmlns="http://schemas.datacontract.org/2004/07/GraphEditor"&gt;true&lt;/isAutoLayoutEnabled&gt;
+    &lt;d2p1:isLayoutsVisualized&gt;false&lt;/d2p1:isLayoutsVisualized&gt;
+    &lt;d2p1:isPlaceholdersVisualized&gt;true&lt;/d2p1:isPlaceholdersVisualized&gt;
+    &lt;d2p1:isTransitionEditorEnabled&gt;false&lt;/d2p1:isTransitionEditorEnabled&gt;
+  &lt;/Settings&gt;
+  &lt;Viewports xmlns:d2p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.Plugins.PageEditor.Hierarchy"&gt;
+    &lt;d2p1:HierarchyControl.SerializedState&gt;
+      &lt;d2p1:Position xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Windows"&gt;
+        &lt;d4p1:_x&gt;0&lt;/d4p1:_x&gt;
+        &lt;d4p1:_y&gt;0&lt;/d4p1:_y&gt;
+      &lt;/d2p1:Position&gt;
+      &lt;d2p1:ProjectItem&gt;Screens/Screen&lt;/d2p1:ProjectItem&gt;
+      &lt;d2p1:RootItemPath&gt;&lt;/d2p1:RootItemPath&gt;
+      &lt;d2p1:RootItemPosition xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Windows"&gt;
+        &lt;d4p1:_x&gt;0&lt;/d4p1:_x&gt;
+        &lt;d4p1:_y&gt;0&lt;/d4p1:_y&gt;
+      &lt;/d2p1:RootItemPosition&gt;
+      &lt;d2p1:Scale xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Windows"&gt;
+        &lt;d4p1:_x&gt;1&lt;/d4p1:_x&gt;
+        &lt;d4p1:_y&gt;1&lt;/d4p1:_y&gt;
+      &lt;/d2p1:Scale&gt;
+    &lt;/d2p1:HierarchyControl.SerializedState&gt;
+  &lt;/Viewports&gt;
+&lt;/HierarchyPluginWindowState&gt;</d7p2:XMLData>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>StateToolsEditor</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Plugin"
+              i:type="d7p2:PluginWindowHostState.ProjectDependentData">
+              <d7p2:TypeName>Rightware.Kanzi.Studio.PluginInterface.PluginWindowState, PluginInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</d7p2:TypeName>
+              <d7p2:XMLData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PluginWindowState xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.PluginInterface"&gt;
+  &lt;editedItemPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;
+&lt;/PluginWindowState&gt;</d7p2:XMLData>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>DataSources</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Plugin"
+              i:type="d7p2:PluginWindowHostState.ProjectDependentData">
+              <d7p2:TypeName>Rightware.Kanzi.Studio.PluginInterface.PluginWindowState, PluginInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</d7p2:TypeName>
+              <d7p2:XMLData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PluginWindowState xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.PluginInterface"&gt;
+  &lt;editedItemPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;
+&lt;/PluginWindowState&gt;</d7p2:XMLData>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>PackageBrowser</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Plugin"
+              i:type="d7p2:PluginWindowHostState.ProjectDependentData">
+              <d7p2:TypeName>Rightware.Kanzi.Studio.PluginInterface.PluginWindowState, PluginInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</d7p2:TypeName>
+              <d7p2:XMLData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PluginWindowState xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.PluginInterface"&gt;
+  &lt;editedItemPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;
+&lt;/PluginWindowState&gt;</d7p2:XMLData>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+          <d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+            <d2p1:Key>ActivityBrowser</d2p1:Key>
+            <d2p1:Value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d7p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Plugin"
+              i:type="d7p2:PluginWindowHostState.ProjectDependentData">
+              <d7p2:TypeName>Rightware.Kanzi.Studio.Plugins.ActivityBrowser.Utilities.ActivityBrowserWindowState, ActivityBrowser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</d7p2:TypeName>
+              <d7p2:XMLData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ActivityBrowserWindowState xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ActivityBrowser.Utilities"&gt;
+  &lt;editedItemPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Studio.PluginInterface" /&gt;
+  &lt;Settings xmlns:d2p1="http://schemas.datacontract.org/2004/07/GraphEditor"&gt;
+    &lt;d2p1:isAutoLayoutEnabled&gt;true&lt;/d2p1:isAutoLayoutEnabled&gt;
+  &lt;/Settings&gt;
+&lt;/ActivityBrowserWindowState&gt;</d7p2:XMLData>
+            </d2p1:Value>
+          </d2p1:KeyValueOfstringSerializableObjectEu9UlzsU>
+        </WindowProjectSpecificData>
+      </d2p1:Value>
+    </d2p1:KeyValueOfguidVirtualLayoutProjectSpecificDataw36UbEVW>
+  </VirtualLayoutProjectSpecificData>
+</VirtualLayoutSetProjectSpecificData>

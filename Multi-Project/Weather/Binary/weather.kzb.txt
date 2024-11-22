@@ -1,0 +1,46 @@
+﻿Files:
+PropertyTypeLibrary/Weather.Forecast.Column
+PropertyTypeLibrary/Weather.Forecast.Day
+PropertyTypeLibrary/Weather.Forecast.Image
+PropertyTypeLibrary/Weather.Forecast.Row
+PropertyTypeLibrary/Weather.Forecast.Temperature
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Screens/Screen/RootPage/Weather
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/RootPage
+Screens/Screen
+Brushes/Background
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Now/Symbol
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Now/Temperature
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Now/Unit
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Now
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Divider
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Day 1 forecast
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Day 2 forecast
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D/Day 3 forecast
+Prefabs/Weather/Weather/Grid Layout 2D/Icon
+Prefabs/Weather/Weather/Grid Layout 2D/Grid Layout 2D
+Prefabs/Weather/Weather/Grid Layout 2D
+Prefabs/Weather/Weather
+Prefabs/Forecast/Forecast/Temperature/Temperature
+Prefabs/Forecast/Forecast/Temperature/Unit
+Prefabs/Forecast/Forecast/Day
+Prefabs/Forecast/Forecast/Symbol
+Prefabs/Forecast/Forecast/Temperature
+Prefabs/Forecast/Forecast
+Prefabs/Weather
+Prefabs/Forecast
+Localization/Localization Table
+Locales/neutral
+Locales/en
+Locales/fi
+Resource Files/Images/Icon Partly sunny.png
+Resource Files/Images/Icon Sunny.png
+Resource Files/Images/Icon Weather.png
+Resource Files/Images/Icon Partly sunny Large.png
+Textures/Icon Partly sunny
+Textures/Icon Partly sunny Large
+Textures/Icon Sunny
+Textures/Icon Weather
+Styles/Text Block 2D Style
+/weather
