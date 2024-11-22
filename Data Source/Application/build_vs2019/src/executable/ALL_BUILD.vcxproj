@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profiling|x64">
+      <Configuration>Profiling</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADF1AD24-8BE8-3201-9407-A655F98C1965}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\executable\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/executable/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/executable/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\executable\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/executable/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/executable/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\executable\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/executable/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/executable/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\executable\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\ZERO_CHECK.vcxproj">
+      <Project>{F52A3917-9E27-3D36-8E3D-9890DC4FBC23}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\executable\XML_data_source_executable_start.vcxproj">
+      <Project>{1BC51515-7CFD-3647-AF4D-DBCF30C6B293}</Project>
+      <Name>XML_data_source_executable_start</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

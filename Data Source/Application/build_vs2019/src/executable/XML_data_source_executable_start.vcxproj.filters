@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\executable\src\xmldatasource_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\executable\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A93396B3-6F98-3AC8-9296-112434BDE815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

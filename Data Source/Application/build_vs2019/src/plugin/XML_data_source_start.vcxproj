@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profiling|x64">
+      <Configuration>Profiling</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D449F2F3-534A-3338-9EF6-562D54CA1C06}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>XML_data_source_start</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">XML_data_source_start.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">XML_data_source_start</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">XML_data_source_start.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">XML_data_source_start</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Profiling\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">XML_data_source_start.dir\Profiling\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">XML_data_source_start</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/KanziWorkspace_3_9_10_98/Engine/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/boost/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl_es_2_0/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4231;4355;4503;4510;4512;4610;4702;4996;4075;4661</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;KANZI_DEBUG=1;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR="Debug";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;KANZI_DEBUG=1;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR=\"Debug\";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Debug_DLL"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Debug/XML_data_source_start.dll" "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Debug_DLL/XML_data_source.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Debug_DLL\kzui_GL_vs2019_Debug.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Debug_DLL\kzcoreui_GL_vs2019_Debug.lib;opengl32.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Debug_DLL\kzcore_GL_vs2019_Debug.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/Debug/XML_data_source_start.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Debug/XML_data_source_start.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/KanziWorkspace_3_9_10_98/Engine/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/boost/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl_es_2_0/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4231;4355;4503;4510;4512;4610;4702;4996;4075;4661</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR="Release";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR=\"Release\";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Release_DLL"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Release/XML_data_source_start.dll" "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Release_DLL/XML_data_source.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Release_DLL\kzui_GL_vs2019_Release.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Release_DLL\kzcoreui_GL_vs2019_Release.lib;opengl32.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Release_DLL\kzcore_GL_vs2019_Release.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/Release/XML_data_source_start.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Release/XML_data_source_start.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/KanziWorkspace_3_9_10_98/Engine/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/boost/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl_es_2_0/include" /external:I "C:/KanziWorkspace_3_9_10_98/Engine/libraries/common/opengl/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4231;4355;4503;4510;4512;4610;4702;4996;4075;4661</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;KANZI_PROFILING_BUILD=1;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR="Profiling";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;XML_DATA_SOURCE_API=__declspec(dllexport);XML_DATA_SOURCE_API_EXPORT;KANZI_COREUI_API_IMPORT;KANZI_PROFILING_BUILD=1;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;KANZI_FEATURE_3D;KZ_RUNTIME_GRAPHICS_BACKEND=1;KZ_DLOAD_GL_SYMBOLS=12;KZ_SUPPORT_GRAPHICS_API_OPENGL=1;KZ_SUPPORT_GRAPHICS_API_GLES=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_WGL=1;KZ_SUPPORT_GRAPHICS_CONTEXT_API_EGL=1;KZ_DLOAD_GLES_SYMBOLS=32;KZ_DLOAD_EGL_SYMBOLS=1;KANZI_CORE_API_IMPORT;KANZI_UI_API_IMPORT;CMAKE_INTDIR=\"Profiling\";XML_data_source_start_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src;C:\KanziWorkspace_3_9_10_98\Engine\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\boost\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl_es_2_0\include;C:\KanziWorkspace_3_9_10_98\Engine\libraries\common\opengl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Profiling_DLL"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Profiling/XML_data_source_start.dll" "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/../../lib/Win64/GL_vs2019_Profiling_DLL/XML_data_source.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Profiling_DLL\kzui_GL_vs2019_Profiling.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Profiling_DLL\kzcoreui_GL_vs2019_Profiling.lib;opengl32.lib;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\GL_vs2019_Profiling_DLL\kzcore_GL_vs2019_Profiling.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/Profiling/XML_data_source_start.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/runtime/Profiling/XML_data_source_start.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindBoost.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindEGL.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindGLESv2.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindOpenGLExt.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformHeaders.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\FindPlatformLibraries.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\detect-platform.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\helpers.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\kanzi-common.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\profiling-config.cmake;C:\KanziWorkspace_3_9_10_98\Engine\cmake\modules\static-runtime.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-debug.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-profiling.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets-release.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\Win64\cmake\GL_vs2019\shared\KanziTargets.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfig.cmake;C:\KanziWorkspace_3_9_10_98\Engine\lib\cmake\Kanzi\KanziConfigVersion.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\src\plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profiling|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\data_object_static_list.cpp" />
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\data_object_static_list.hpp" />
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.cpp" />
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.hpp" />
+    <ResourceCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.rc" />
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource_module.cpp" />
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource_module.hpp" />
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\tinyxml2.cpp" />
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\ZERO_CHECK.vcxproj">
+      <Project>{F52A3917-9E27-3D36-8E3D-9890DC4FBC23}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1 @@
+cmake -S . -B build_vs2019 -G "Visual Studio 16 2019" -A x64 -DCMAKE_PREFIX_PATH="C:\KanziWorkspace_3_9_10_98" -DKanzi_Dir="C:\KanziWorkspace_3_9_10_98\Engine\cmake"

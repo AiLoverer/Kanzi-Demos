@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Release\XML_data_source_start.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Release\XML_data_source_executable_start.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.rightware.gradle.kanzi'
+
+android {
+    namespace 'com.rightware.kanzi.xmldatasource_plugin'
+    compileSdk 28
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName "1.0"
+
+        externalNativeBuild {
+            cmake{
+                arguments "-DBUILD_SHARED_LIBS=ON"
+                arguments "-DKANZI_LINK_FREETYPE=ON"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    ndkVersion "21.3.6528147"
+
+    externalNativeBuild {
+        cmake {
+            path file("$projectDir/../../../../src/plugin/CMakeLists.txt")
+        }
+    }
+
+    lintOptions {
+        disable 'ExpiredTargetSdkVersion'
+    }
+}

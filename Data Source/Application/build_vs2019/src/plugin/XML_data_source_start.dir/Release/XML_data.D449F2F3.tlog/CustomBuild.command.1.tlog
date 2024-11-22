@@ -1,0 +1,10 @@
+^D:\XUQIANG\GITHUB\KANZI-DEMOS\DATA SOURCE\APPLICATION\SRC\PLUGIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/xuqiang/github/Kanzi-Demos/Data Source/Application" "-BD:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019" --check-stamp-file "D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

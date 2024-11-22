@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-21 11:20:54
+ * @LastEditTime: 2024-11-22 11:21:45
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -53,3 +53,10 @@
 
 <img src="./res/toggle-button-final.gif" alt="效果图" width="850" height="550">
 
+## Data source
+在本仓库的这一步中主要学习应用程序使用数据源插件：
+- 数据源将用户界面与应用程序数据分离
+- 通过定义 Kanzi Engine 数据源插件来定义数据源的格式和结构
+- 定义 XML 数据源以及如何在 Kanzi Studio 项目中使用该数据源中的数据向 Kanzi 应用程序提供数据
+
+<img src="./res/end-of-step-3.png" alt="效果图" width="850" height="350">

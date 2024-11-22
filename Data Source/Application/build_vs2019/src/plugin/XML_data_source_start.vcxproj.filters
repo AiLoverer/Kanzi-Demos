@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\data_object_static_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\data_object_static_list.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource_module.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\xuqiang\github\Kanzi-Demos\Data Source\Application\src\plugin\src\xmldatasource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D9B681BC-2106-3479-A335-D6272BA7C08B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A93396B3-6F98-3AC8-9296-112434BDE815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
