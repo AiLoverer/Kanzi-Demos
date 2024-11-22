@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.rightware.gradle.kanzi'
+
+android {
+    namespace 'com.rightware.kanzi.datadrivenactivities'
+    compileSdk 28
+
+    defaultConfig {
+        applicationId "com.rightware.kanzi.datadrivenactivities"
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        sourceSets {
+            main {
+                assets.srcDirs = [new File(rootDir, "../../../bin")]
+            }
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DKANZI_LINK_FREETYPE=ON"
+                arguments "-DKANZI_LINK_ITYPE=OFF"
+            }
+        }        
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            packagingOptions {
+                doNotStrip "**/*.so"
+            }
+        }
+    }
+
+    ndkVersion "21.3.6528147"
+
+    externalNativeBuild {
+        cmake {
+            path file("$rootDir/../../../CMakeLists.txt")
+        }
+    }
+
+
+    lintOptions {
+        disable 'ExpiredTargetSdkVersion'
+    }
+}
+
+afterEvaluate {
+    // Make the CMake configuration task of this app to depend on the plugin project's build results.
+    tasks.withType(com.android.build.gradle.tasks.ExternalNativeBuildJsonTask).every { task ->
+        // This example dependency assumes, that the plugin project and the app project have
+        // the same build variant types available (:app:Debug -> :XML_data_source:Debug, etc.)
+        task.dependsOn(":XML_data_source:externalNativeBuild${task.variantName.capitalize()}")
+    }
+}
+
+dependencies {
+    implementation project(':XML_data_source')
+    implementation 'com.rightware.kanzi:kanziruntime@aar'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+}
