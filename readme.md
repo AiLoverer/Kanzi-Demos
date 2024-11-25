@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-22 15:41:25
+ * @LastEditTime: 2024-11-25 15:38:36
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -73,3 +73,14 @@
 - 一个项目控制另外一个项目控件
 
 <img src="./res/completed.png" alt="效果图" width="850" height="320">
+
+## Android Getting Started
+在本仓库的这一步中主要学习使用 Kanzi Android 框架 (droidfw) 开始开发 Android 应用程序：
+- 在 Android 视图中显示 Kanzi 预制件
+- 使用 Kanzi Java API 访问和修改应用程序
+- 创建一个 Android Activity并在该Activity中显示 Kanzi 内容
+
+>[!NOTE]当您想要为 Android 平台创建应用程序，并且打算广泛使用 Android API 和服务时，请使用 Kanzi Android 框架 (droidfw)。
+>Kanzi Android 框架 (droidfw) 是一个专门用于开发 Android 版 Kanzi 应用的框架。它公开了 Kanzi Java API，允许您完全用 Java 或 Kotlin 编写应用和插件代码。您无需编写任何 C++ 或 JNI 代码，但仍可以使用原生 Kanzi 插件。Kanzi Android 框架 (droidfw) 提供与 Android UI 的强大集成，包括支持多个同时基于 Kanzi 的视图以及 Kanzi 和 Android UI 元素的灵活组合。Kanzi Android 框架 (droidfw) 与 Android Choreographer 集成，后者在 Android UI 线程中运行 Kanzi 主循环任务。这使您可以从应用代码中使用 Kanzi Java API，而无需调度程序机制。
+
+<img src="./res/android-getting-started-completed.gif" alt="效果图" width="850" height="550">
