@@ -1,0 +1,1 @@
+// CMake requires this file since it does not allow an executable without any source files.

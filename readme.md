@@ -84,3 +84,11 @@
 >Kanzi Android 框架 (droidfw) 是一个专门用于开发 Android 版 Kanzi 应用的框架。它公开了 Kanzi Java API，允许您完全用 Java 或 Kotlin 编写应用和插件代码。您无需编写任何 C++ 或 JNI 代码，但仍可以使用原生 Kanzi 插件。Kanzi Android 框架 (droidfw) 提供与 Android UI 的强大集成，包括支持多个同时基于 Kanzi 的视图以及 Kanzi 和 Android UI 元素的灵活组合。Kanzi Android 框架 (droidfw) 与 Android Choreographer 集成，后者在 Android UI 线程中运行 Kanzi 主循环任务。这使您可以从应用代码中使用 Kanzi Java API，而无需调度程序机制。
 
 <img src="./res/android-getting-started-completed.gif" alt="效果图" width="850" height="550">
+
+## Android Data Source (※)
+在本仓库的这一步中主要学习使用为Android 版 Kanzi 应用程序创建数据源
+- 使用 Kanzi Java API 创建数据源。
+- 使用Android API来支持数据源。
+- 确保与无法使用 Android API 的Kanzi Studio Preview兼容。
+- 
+- <img src="./res/android-data-source-complete.gif" alt="效果图" width="650" height="350">

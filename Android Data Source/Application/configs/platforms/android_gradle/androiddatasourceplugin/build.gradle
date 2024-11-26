@@ -1,0 +1,128 @@
+import com.rightware.gradle.KanziHelpers
+apply plugin: 'com.android.library'
+
+/*
+ * Sets the name of the plugin exported from this project.
+ * Used for the filename of the plugin JAR and for the return from plugin class's getName() method.
+ * These two values must be kept in sync for plugin loading to work.
+ */
+def pluginName = "Android_Data_Sourceplugin"
+
+android {
+    namespace 'com.example.androiddatasourceplugin'
+    compileSdk 31
+
+    defaultConfig {
+        minSdk 26
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        buildConfigField("String", "PLUGIN_NAME", "\"$pluginName\"")
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // This library project does not have any native sources of its own, but a CMake build is
+        // required to package libc++_shared.so into the androidTest APK.
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        }
+        
+        // Exclude the CMake generated library from the final build.
+        packagingOptions {
+            exclude "**/libandroiddatasourceplugintest.so"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        androidTest {
+            jniLibs.srcDirs += new File(KanziHelpers.getKanziHome(project), "Engine/lib/android/ES3_Debug")
+        }
+    }
+
+    // This library project does not have any native sources of its own, but a CMake build is required
+    // to package libc++_shared.so into the androidTest APK.
+    ndkVersion "21.3.6528147"
+    externalNativeBuild {
+        cmake {
+            path = "src/CMakeLists.txt"
+        }
+    }
+}
+
+/**
+ * Exports this project as a Kanzi JAR plugin to be used with Kanzi Studio.
+ *
+ * Tasks: exportJarDebug, exportJarRelease
+ */
+android.buildTypes.all { buildType ->
+    task "exportJar${buildType.name.capitalize()}"(type: Jar, group: 'Kanzi') {
+        description "Exports ${buildType.name} JAR plugin into ${destinationDirectory.get().toString()}."
+
+        archiveBaseName = pluginName
+        destinationDirectory = file("${rootDir}/../../../lib/java/${buildType.name.capitalize()}")
+
+        // Compile the project before packaging the classes into JAR.
+        dependsOn("assemble${buildType.name.capitalize()}")
+    }
+}
+
+project.gradle.taskGraph.whenReady {
+    android.buildTypes.all { buildType ->
+        tasks.getByName("exportJar${buildType.name.capitalize()}").configure {
+            /*
+             * JAR plugin functionality depends on META-INF/MANIFEST.MF file in JAR file.
+             *
+             * The attribute "Plugin-Class" defines the name of the class to be constructed when
+             * the plugin is registered to Kanzi Engine. If this class can't be found, the plugin
+             * registration will fail with ClassNotFoundException.
+             */
+            manifest {
+                attributes 'Plugin-Version': "${android.defaultConfig.versionName}",
+                        'Plugin-Class': 'com.example.androiddatasourceplugin.AndroidDataSourcePlugin'
+            }
+
+            /*
+             * The directories to look for the compiled classes. The found .class files will be
+             * collected into the resulting JAR plugin archive.
+             */
+            from("build/intermediates/javac/${buildType.name}/classes/")
+            from("build/tmp/kotlin-classes/${buildType.name}/")
+            from {
+                /*
+                 * Collects the classes of runtime dependencies. Will result a "Fat JAR" that contains
+                 * its dependencies and does not require additional libraries in JVM's classpath.
+                 * As all the dependencies are included, it may result unnecessarily large archive to
+                 * be produced. Verification of JAR plugin's contents is advised (it is a zip file).
+                 */
+                configurations["${buildType.name}RuntimeClasspath"].collect {
+                    it.isDirectory() ? it : zipTree(it)
+                }
+            } {
+                exclude "META-INF/**/module-info.class"
+                include "**/*.class"
+                exclude "*"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.rightware.kanzi:kzjava@aar'
+    androidTestImplementation 'androidx.test:core:1.4.0'
+    androidTestImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+}
