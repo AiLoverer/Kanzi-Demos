@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-25 15:38:36
+ * @LastEditTime: 2024-11-26 11:17:43
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -51,7 +51,19 @@
 在本仓库的这一步中主要学习自定义控件：
 - Toggle Button  
 
-<img src="./res/toggle-button-final.gif" alt="效果图" width="850" height="550">
+<img src="./res/toggle-button-final.gif" alt="效果图" width="650" height="350">
+
+- Button  
+
+<img src="./res/end-of-first-section.png" alt="效果图" width="650" height="350">
+
+- Slider
+
+<img src="./res/slider-value-indicator.gif" alt="效果图" width="650" height="350">
+
+- List Box
+
+<img src="./res/list-box.gif" alt="效果图" width="650" height="350">
 
 ## Data Source
 在本仓库的这一步中主要学习应用程序使用数据源插件：
