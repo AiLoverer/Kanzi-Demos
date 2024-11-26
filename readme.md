@@ -102,5 +102,10 @@
 - 使用 Kanzi Java API 创建数据源。
 - 使用Android API来支持数据源。
 - 确保与无法使用 Android API 的Kanzi Studio Preview兼容。
-- 
-- <img src="./res/android-data-source-complete.gif" alt="效果图" width="650" height="350">
+
+<img src="./res/android-data-source-complete.gif" alt="效果图" width="650" height="350">
+
+## Rotate a 3D Car model
+在本仓库的这一步中主要学习使用Scroll View 2D 旋转3D车模
+
+<img src="./res/rotation-completed.gif" alt="效果图" width="650" height="350">

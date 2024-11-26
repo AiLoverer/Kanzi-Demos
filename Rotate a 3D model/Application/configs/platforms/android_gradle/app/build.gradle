@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.rightware.gradle.kanzi'
+
+android {
+    namespace 'com.example.rotatea3dmodel'
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.example.rotatea3dmodel"
+        minSdk 26
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        sourceSets {
+            main {
+                assets.srcDirs = [new File(rootDir, "../../../bin")]
+            }
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DKANZI_LINK_FREETYPE=ON"
+                arguments "-DKANZI_LINK_ITYPE=OFF"
+            }
+        }
+
+        if (!project.hasProperty("stripNativeLibs")) {
+            packagingOptions {
+                doNotStrip '**/*.so'
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions.jniLibs.pickFirsts += "**/libc++_shared.so"
+
+    ndkVersion "21.3.6528147"
+
+    externalNativeBuild {
+        cmake {
+            path file("$rootDir/../../../CMakeLists.txt")
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.rightware.kanzi:kanziruntime-droidfw@aar'
+    implementation 'com.rightware.kanzi:kzjava@aar'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+}
