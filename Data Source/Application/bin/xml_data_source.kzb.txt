@@ -1,0 +1,57 @@
+﻿Files:
+PropertyTypeLibrary/XMLdatasource.NavigationInstructions
+PropertyTypeLibrary/XMLdatasource.TurnIndicator
+PropertyTypeLibrary/XMLdatasource.VisualDirections
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Screens/Screen/RootPage/Gauges/SpeedView/SpeedValue
+Screens/Screen/RootPage/Gauges/SpeedView/SpeedUnit
+Screens/Screen/RootPage/Gauges/SpeedNeedle
+Screens/Screen/RootPage/Gauges/SpeedView
+Screens/Screen/RootPage/Gauges/TurnIndicatorLeft
+Screens/Screen/RootPage/Gauges/TurnIndicatorRight
+Screens/Screen/RootPage/Navigation/Stack Layout 2D/VisualDirections
+Screens/Screen/RootPage/Navigation/Stack Layout 2D/Distance
+Screens/Screen/RootPage/Navigation/Stack Layout 2D/Instructions
+Screens/Screen/RootPage/Navigation/Stack Layout 2D
+Screens/Screen/RootPage/Contacts/ContactsMenu
+Screens/Screen/RootPage/Contacts/ContactsList
+Screens/Screen/RootPage/FuelNeedle
+Screens/Screen/RootPage/BatteryNeedle
+Screens/Screen/RootPage/Gauges
+Screens/Screen/RootPage/Navigation
+Screens/Screen/RootPage/Contacts
+Screens/Screen/RootPage
+Screens/Screen
+Brushes/Black
+Brushes/ContactItem background
+Brushes/Gauges background
+Prefabs/ContactItem/ContactItem/Container/Name/ContactFirstName
+Prefabs/ContactItem/ContactItem/Container/Name/ContactLastName
+Prefabs/ContactItem/ContactItem/Container/Name
+Prefabs/ContactItem/ContactItem/Container/ContactNumber
+Prefabs/ContactItem/ContactItem/Container
+Prefabs/ContactItem/ContactItem/Phone-Icon
+Prefabs/ContactItem/ContactItem
+Prefabs/TurnIndicator/TurnIndicator
+Prefabs/ContactItem
+Prefabs/TurnIndicator
+Page Transitions/RootPage Transitions
+Resource Files/Images/Cluster_Empty.png
+Resource Files/Images/FuelBatteryNeedle.png
+Resource Files/Images/LeftTurn.png
+Resource Files/Images/Phone-Icon.png
+Resource Files/Images/RightTurn.png
+Resource Files/Images/SpeedNeedle.png
+Resource Files/Images/TurnIndicator.png
+Textures/Cluster_Empty
+Textures/FuelBatteryNeedle
+Textures/LeftTurn
+Textures/Phone-Icon
+Textures/RightTurn
+Textures/SpeedNeedle
+Textures/TurnIndicator
+Styles/Text Block 2D Style
+State Managers/Instructions State Manager
+State Managers/TurnIndicator State Manager
+State Managers/Visual State Manager
+/xml_data_source

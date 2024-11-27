@@ -1,0 +1,42 @@
+<gauges>
+    <speed type="int">130
+        <unit type="string">km/h</unit>
+    </speed>
+    <fuel type="int">75</fuel>
+    <battery type="int">20</battery>
+</gauges>
+<turnindicator>
+    <left type="bool">true</left>
+    <right type="bool">false</right>
+</turnindicator>
+<navigation>
+    <directions>
+        <visualdirections type="int">1</visualdirections>
+        <distance type="string">5 mi</distance>
+        <instructions type="int">1</instructions>
+    </directions>
+</navigation>
+<contacts type="list">
+    <items>
+        <contact>
+            <firstname type="string">AiLoverer</firstname>
+            <lastname type="string">Krar</lastname>
+            <phone type="string">+1 (503) 123 4567</phone>
+        </contact>
+        <contact>
+            <firstname type="string">Anna</firstname>
+            <lastname type="string">Frost</lastname>
+            <phone type="string">+64 3-483 2081</phone>
+        </contact>
+        <contact>
+            <firstname type="string">Kwamie</firstname>
+            <lastname type="string">Liv</lastname>
+            <phone type="string">+45 20 32 73 29</phone>
+        </contact>
+        <contact>
+            <firstname type="string">Ricky</firstname>
+            <lastname type="string">Gates</lastname>
+            <phone type="string">+1 (303) 786 9255</phone>
+        </contact>
+    </items>
+</contacts>

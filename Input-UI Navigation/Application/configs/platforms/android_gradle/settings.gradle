@@ -1,0 +1,5 @@
+rootProject.name = "uinavigation"
+include ":app"
+include ":XML_data_source"
+def kanziHome = System.getenv("KANZI_HOME")
+project(":XML_data_source").projectDir = new File(kanziHome + "/Tutorials/Data sources/Completed/Application/configs/platforms/android_gradle/XML_data_source")

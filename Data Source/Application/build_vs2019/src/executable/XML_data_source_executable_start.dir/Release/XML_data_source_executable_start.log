@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/executable/CMakeLists.txt
+  xmldatasource_main.cpp
+  kzappfw.lib(main.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+  正在生成代码
+  已完成代码的生成
+  XML_data_source_executable_start.vcxproj -> D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Release\XML_data_source_executable_start.exe

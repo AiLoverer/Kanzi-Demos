@@ -1,0 +1,3 @@
+rootProject.name = "xmldatasource_project"
+include ":app"
+include ":XML_data_source"

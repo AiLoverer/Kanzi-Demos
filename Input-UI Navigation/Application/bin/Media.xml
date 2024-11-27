@@ -1,0 +1,69 @@
+<albums type="list">
+    <items>
+        <album>
+            <name type="string">Digital Cosmos</name>
+        </album>
+        <album>
+            <name type="string">Zero and Four</name>
+        </album>
+        <album>
+            <name type="string">Float</name>
+        </album>
+        <album>
+            <name type="string">Blanko</name>
+        </album>
+        <album>
+            <name type="string">Indemnify</name>
+        </album>
+        <album>
+            <name type="string">Kiosk</name>
+        </album>
+        <album>
+            <name type="string">Undercover</name>
+        </album>
+        <album>
+            <name type="string">Hidden Feeling</name>
+        </album>		
+    </items>
+</albums>
+<playlists type="list">
+    <items>
+        <playlist>
+            <name type="string">On Repeat</name>
+        </playlist>
+        <playlist>
+            <name type="string">Most Played</name>
+        </playlist>
+        <playlist>
+            <name type="string">Workout</name>
+        </playlist>
+        <playlist>
+            <name type="string">Rock Classics</name>
+        </playlist>
+        <playlist>
+            <name type="string">Top 40</name>
+        </playlist>
+        <playlist>
+            <name type="string">Chill</name>
+        </playlist>		
+    </items>
+</playlists>
+<radiostations type="list">
+    <items>
+        <radiostation>
+            <name type="string">103.8</name>
+        </radiostation>
+        <radiostation>
+            <name type="string">102.7</name>
+        </radiostation>
+        <radiostation>
+            <name type="string">98.8</name>
+        </radiostation>
+        <radiostation>
+            <name type="string">96.7</name>
+        </radiostation>
+        <radiostation>
+            <name type="string">102.1</name>
+        </radiostation>		
+    </items>
+</radiostations>

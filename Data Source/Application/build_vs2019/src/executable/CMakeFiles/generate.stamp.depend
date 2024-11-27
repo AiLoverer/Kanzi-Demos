@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindBoost.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindEGL.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindGLESv2.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindOpenGLExt.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindPlatformHeaders.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/FindPlatformLibraries.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/detect-platform.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/helpers.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/kanzi-common.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/profiling-config.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/cmake/modules/static-runtime.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/Win64/cmake/GL_vs2019/shared/KanziConfig.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/Win64/cmake/GL_vs2019/shared/KanziTargets-debug.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/Win64/cmake/GL_vs2019/shared/KanziTargets-profiling.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/Win64/cmake/GL_vs2019/shared/KanziTargets-release.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/Win64/cmake/GL_vs2019/shared/KanziTargets.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/cmake/Kanzi/KanziConfig.cmake
+C:/KanziWorkspace_3_9_10_98/Engine/lib/cmake/Kanzi/KanziConfigVersion.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/executable/CMakeLists.txt

@@ -1,0 +1,76 @@
+<contacts type="list">
+    <items>
+        <contact>
+            <photo type="string">kzb://components/Textures/Avatar1</photo>
+            <name type="string">Jordan Banks</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar2</photo>
+            <name type="string">John Berry</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar3</photo>
+            <name type="string">Louis Black</name>
+        </contact>
+        <contact>
+            <photo type="string">kzb://components/Textures/Avatar4</photo>
+            <name type="string">Bryan Estrada</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar5</photo>
+            <name type="string">Sean Garza</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar6</photo>
+            <name type="string">Ashley Fuller</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar7</photo>
+            <name type="string">Matthew Hill</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar8</photo>
+            <name type="string">Amy Holland</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar9</photo>
+            <name type="string">Victoria Hudson</name>
+        </contact>
+        <contact>
+            <photo type="string">kzb://components/Textures/Avatar10</photo>
+            <name type="string">Shirley Jacobs</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar11</photo>
+            <name type="string">Kathy Kennedy</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar12</photo>
+            <name type="string">Alan Lawrence</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar13</photo>
+            <name type="string">Joan Mitchell</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar14</photo>
+            <name type="string">Janet Oliver</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar15</photo>
+            <name type="string">Laura Ramos</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar16</photo>
+            <name type="string">Anna Riley</name>
+        </contact>
+        <contact>
+            <photo type="string">kzb://components/Textures/Avatar17</photo>
+            <name type="string">Mildred Scott</name>
+        </contact>
+		<contact>
+            <photo type="string">kzb://components/Textures/Avatar18</photo>
+            <name type="string">Catherine Watkins</name>
+        </contact>
+    </items>
+</contacts>

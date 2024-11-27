@@ -1,0 +1,215 @@
+﻿Files:
+PropertyTypeLibrary/Slider.DefaultColor
+PropertyTypeLibrary/Slider.FillColor
+PropertyTypeLibrary/Slider.KnobColor
+PropertyTypeLibrary/UInavigation.MediaList.ItemsSource
+PropertyTypeLibrary/UInavigation.MediaList.ItemTemplate
+PropertyTypeLibrary/UInavigation.MediaList.Title
+PropertyTypeLibrary/UInavigation.NavigationButton.ToggledOffImage
+PropertyTypeLibrary/UInavigation.NavigationButton.ToggledOnImage
+PropertyTypeLibrary/UInavigation.SettingsItem.Label
+PropertyTypeLibrary/UInavigation.SettingsItem.WarningIcon
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/Root
+Screens/Screen
+Brushes/White Brush
+Brushes/Background Brush
+Brushes/Blue Brush
+Brushes/Gray Brush
+Brushes/Black Brush
+Brushes/Light Blue Color Brush
+Brushes/Light Gray Color Brush
+Trajectories/Slider Trajectory
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar/Grid Layout 2D/HomeButton
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar/Grid Layout 2D/MediaButton
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar/Grid Layout 2D/MapsButton
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar/Grid Layout 2D/SettingsButton
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar/Grid Layout 2D
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/NavigationBar
+Prefabs/MainScreen/MainScreen/Dock Layout 2D/ApplicationScreens
+Prefabs/MainScreen/MainScreen/Dock Layout 2D
+Prefabs/MainScreen/MainScreen
+Prefabs/NavigationButton/NavigationButton/Image
+Prefabs/NavigationButton/NavigationButton
+Prefabs/Home/Home/Grid Layout 2D/Temperature/Value/Value
+Prefabs/Home/Home/Grid Layout 2D/Temperature/Value/Degrees
+Prefabs/Home/Home/Grid Layout 2D/Temperature/Title
+Prefabs/Home/Home/Grid Layout 2D/Temperature/Slider
+Prefabs/Home/Home/Grid Layout 2D/Temperature/Value
+Prefabs/Home/Home/Grid Layout 2D/Speed
+Prefabs/Home/Home/Grid Layout 2D/Temperature
+Prefabs/Home/Home/Grid Layout 2D/Battery
+Prefabs/Home/Home/Grid Layout 2D
+Prefabs/Home/Home
+Prefabs/Media/Media/Grid Layout 2D/Albums
+Prefabs/Media/Media/Grid Layout 2D/Playlists
+Prefabs/Media/Media/Grid Layout 2D/Radio
+Prefabs/Media/Media/Grid Layout 2D
+Prefabs/Media/Media
+Prefabs/Maps/Maps/Image
+Prefabs/Maps/Maps
+Prefabs/Slider/Slider/Rail/KnobTrajectory/RoundKnob
+Prefabs/Slider/Slider/Rail/Slider_Rail_LeftEnd
+Prefabs/Slider/Slider/Rail/Slider_Rail_Fill_Left
+Prefabs/Slider/Slider/Rail/Slider_Rail_Fill_Right
+Prefabs/Slider/Slider/Rail/Slider_Rail_RightEnd
+Prefabs/Slider/Slider/Rail/KnobTrajectory
+Prefabs/Slider/Slider/Rail
+Prefabs/Slider/Slider/<ResourceDictionaryInNode>
+Prefabs/Slider/Slider
+Prefabs/MediaList/MediaList/Background/Title
+Prefabs/MediaList/MediaList/Background/List
+Prefabs/MediaList/MediaList/Background
+Prefabs/MediaList/MediaList
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Car/Image
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Sounds
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Date and Time
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Car
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Display
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu/Language
+Prefabs/Settings/Settings/SettingsFrame/SettingsMenu
+Prefabs/Settings/Settings/SettingsFrame
+Prefabs/Settings/Settings
+Prefabs/AlbumItem/AlbumItem/Background/Label
+Prefabs/AlbumItem/AlbumItem/Background
+Prefabs/AlbumItem/AlbumItem
+Prefabs/PlaylistItem/PlaylistItem/Background/Label
+Prefabs/PlaylistItem/PlaylistItem/Background
+Prefabs/PlaylistItem/PlaylistItem
+Prefabs/RadioItem/RadioItem/Background/Label
+Prefabs/RadioItem/RadioItem/Background
+Prefabs/RadioItem/RadioItem
+Prefabs/SettingsItem/SettingsItem/Background/Label
+Prefabs/SettingsItem/SettingsItem/Background
+Prefabs/SettingsItem/SettingsItem
+Prefabs/MainScreen
+Prefabs/NavigationButton
+Prefabs/Home
+Prefabs/Media
+Prefabs/Maps
+Prefabs/Slider
+Prefabs/MediaList
+Prefabs/Settings
+Prefabs/AlbumItem
+Prefabs/PlaylistItem
+Prefabs/RadioItem
+Prefabs/SettingsItem
+Data Sources/Media
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posX_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negX_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posY_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negY_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds posZ_1x1.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_128x128.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_64x64.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_32x32.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_16x16.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_8x8.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_4x4.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_2x2.png
+Resource Files/Images/cubemaps/mipmaps/DefaultCubeMap.dds negZ_1x1.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posX.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negX.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posY.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negY.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds posZ.png
+Resource Files/Images/cubemaps/DefaultCubeMap.dds negZ.png
+Resource Files/Images/mipmaps/DefaultTextureImage_512x512.png
+Resource Files/Images/mipmaps/DefaultTextureImage_256x256.png
+Resource Files/Images/mipmaps/DefaultTextureImage_128x128.png
+Resource Files/Images/mipmaps/DefaultTextureImage_64x64.png
+Resource Files/Images/mipmaps/DefaultTextureImage_32x32.png
+Resource Files/Images/mipmaps/DefaultTextureImage_16x16.png
+Resource Files/Images/mipmaps/DefaultTextureImage_8x8.png
+Resource Files/Images/mipmaps/DefaultTextureImage_4x4.png
+Resource Files/Images/mipmaps/DefaultTextureImage_2x2.png
+Resource Files/Images/mipmaps/DefaultTextureImage_1x1.png
+Resource Files/Images/DefaultTextureImage.png
+Resource Files/Images/AlbumItem.png
+Resource Files/Images/Background.png
+Resource Files/Images/Battery.png
+Resource Files/Images/IconHome.png
+Resource Files/Images/IconHomeFocused.png
+Resource Files/Images/IconMaps.png
+Resource Files/Images/IconMapsFocused.png
+Resource Files/Images/IconMedia.png
+Resource Files/Images/IconMediaFocused.png
+Resource Files/Images/IconNotification.png
+Resource Files/Images/IconSettings.png
+Resource Files/Images/IconSettingsFocused.png
+Resource Files/Images/Maps.png
+Resource Files/Images/PlaylistItem.png
+Resource Files/Images/RadioItem.png
+Resource Files/Images/RoundKnob.png
+Resource Files/Images/Slider_Left_End.png
+Resource Files/Images/Slider_Middle.png
+Resource Files/Images/Slider_Right_End.png
+Resource Files/Images/Speed.png
+Resource Files/Fonts/exo2.0-light.otf
+Resource Files/Fonts/exo-2-0.regular.otf
+Resource Files/Fonts/exo2.0-black.otf
+Textures/Default Texture
+Textures/Default Cube Map Texture
+Textures/AlbumItem
+Textures/Background
+Textures/Battery
+Textures/IconHome
+Textures/IconHomeFocused
+Textures/IconMaps
+Textures/IconMapsFocused
+Textures/IconMedia
+Textures/IconMediaFocused
+Textures/IconNotification
+Textures/IconSettings
+Textures/IconSettingsFocused
+Textures/Maps
+Textures/PlaylistItem
+Textures/RadioItem
+Textures/RoundKnob
+Textures/Slider_Left_End
+Textures/Slider_Middle
+Textures/Slider_Right_End
+Textures/Speed
+Styles/Text Block 2D Style
+Styles/ListItemLabelStyle
+State Managers/NavigationButton State Manager
+State Managers/Slider Disable Enable State Manager
+State Managers/List State Manager
+Font Families/Exo 2.0
+/ui_navigation

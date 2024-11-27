@@ -1,0 +1,107 @@
+<SettingsPanels type="list">
+    <items>
+        <SettingsPanelItem>
+            <PanelName type="string">WINDOWS</PanelName>
+            <SettingsItems type="list">
+                <items>
+                    <SettingItem>
+                        <SettingName type="string">Front left</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">0</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Front right</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">0</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back left</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">0</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back right</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">0</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                </items>
+            </SettingsItems>
+        </SettingsPanelItem>
+        <SettingsPanelItem>
+            <PanelName type="string">MIRRORS</PanelName>
+            <SettingsItems type="list">
+                <items>
+                    <SettingItem>
+                        <SettingName type="string">Rearview</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">5</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Side left</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">5</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Side right</SettingName>
+                        <SettingType type="string">slider</SettingType>
+                        <SettingValue type="int">5</SettingValue>
+                        <SettingRange type="int">10</SettingRange>
+                    </SettingItem>
+                </items>
+            </SettingsItems>
+        </SettingsPanelItem>
+        <SettingsPanelItem>
+            <PanelName type="string">LIGHTS</PanelName>
+            <SettingsItems type="list">
+                <items>
+                    <SettingItem>
+                        <SettingName type="string">Ceiling</SettingName>
+                        <SettingType type="string">checkbox</SettingType>
+                        <SettingValue type="bool">0</SettingValue>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back left</SettingName>
+                        <SettingType type="string">checkbox</SettingType>
+                        <SettingValue type="bool">0</SettingValue>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back right</SettingName>
+                        <SettingType type="string">checkbox</SettingType>
+                        <SettingValue type="bool">0</SettingValue>
+                    </SettingItem>
+                </items>
+            </SettingsItems>
+        </SettingsPanelItem>
+        <SettingsPanelItem>
+            <PanelName type="string">SEATS</PanelName>
+            <SettingsItems type="list">
+                <items>
+                    <SettingItem>
+                        <SettingName type="string">Heating left</SettingName>
+                        <SettingType type="string">togglebutton</SettingType>
+                        <SettingValue type="bool">0</SettingValue>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Heating right</SettingName>
+                        <SettingType type="string">togglebutton</SettingType>
+                        <SettingValue type="bool">0</SettingValue>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back left</SettingName>
+                        <SettingType type="string">button</SettingType>
+                    </SettingItem>
+                    <SettingItem>
+                        <SettingName type="string">Back right</SettingName>
+                        <SettingType type="string">button</SettingType>
+                    </SettingItem>
+                </items>
+            </SettingsItems>
+        </SettingsPanelItem>
+    </items>
+</SettingsPanels>

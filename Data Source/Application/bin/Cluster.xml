@@ -1,0 +1,18 @@
+<gauges>
+    <speed type="int">90
+        <unit type="string">km/h</unit>
+    </speed>
+    <fuel type="int">75</fuel>
+    <battery type="int">0</battery>
+</gauges>
+<turnindicator>
+    <left type="bool">true</left>
+    <right type="bool">false</right>
+</turnindicator>
+<navigation>
+    <directions>
+        <visualdirections type="int">1</visualdirections>
+        <distance type="string">5 mi</distance>
+        <instructions type="int">1</instructions>
+    </directions>
+</navigation>

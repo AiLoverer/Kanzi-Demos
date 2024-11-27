@@ -1,0 +1,275 @@
+﻿Files:
+PropertyTypeLibrary/ActivityProperty.AccidentAhead
+PropertyTypeLibrary/ActivityProperty.BatteryLow
+PropertyTypeLibrary/ActivityProperty.Cluster.MainView
+PropertyTypeLibrary/ActivityProperty.IncomingCall
+PropertyTypeLibrary/ActivityProperty.LeftWidget
+PropertyTypeLibrary/ActivityProperty.NewMessage
+PropertyTypeLibrary/ActivityProperty.RightWidget
+PropertyTypeLibrary/Availability
+PropertyTypeLibrary/Button.Availability
+PropertyTypeLibrary/Button.BorderColor
+PropertyTypeLibrary/Button.BorderThickness
+PropertyTypeLibrary/Button.ButtonHighlight
+PropertyTypeLibrary/Button.HighlightColor
+PropertyTypeLibrary/Button.Label
+PropertyTypeLibrary/Button.MainColor
+PropertyTypeLibrary/Button.RoundingRadius
+PropertyTypeLibrary/Slider.DefaultColor
+PropertyTypeLibrary/Slider.FillColor
+PropertyTypeLibrary/Slider.KnobColor
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Animation Clips/Animation Clip
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/Cluster
+Screens/Screen
+Material Types/RoundBoxBrush
+Material Types/BorderRoundedBrush
+Material Types/Textured
+Materials/RoundBoxBrush
+Materials/BorderRoundedBrush
+Materials/TexturedMaterial
+Brushes/Background
+Brushes/Rounded Box Material Brush
+Brushes/BorderRoundedBrush
+Brushes/Light Blue Color Brush
+Brushes/Light Gray Color Brush
+Brushes/ToggleButtonTextColor
+Brushes/Knob Material Brush
+Trajectories/Slider Trajectory
+Prefabs/GaugeView/GaugeView/GaugeViewActivityHost
+Prefabs/GaugeView/GaugeView
+Prefabs/Header/Header/HeaderImage
+Prefabs/Header/Header/MainViewSwitcher
+Prefabs/Header/Header
+Prefabs/HeaderImage/HeaderImage
+Prefabs/LeftArea/LeftArea/MaximizedMinimizedSwitcher
+Prefabs/LeftArea/LeftArea
+Prefabs/MainGauge/MainGauge/MainGaugeImage
+Prefabs/MainGauge/MainGauge
+Prefabs/MainGaugeImage/MainGaugeImage
+Prefabs/MaximizedLeft/MaximizedLeft/PopupMaximized/MaximizedWidget
+Prefabs/MaximizedLeft/MaximizedLeft/PopupMaximized
+Prefabs/MaximizedLeft/MaximizedLeft
+Prefabs/MaximizedRight/MaximizedRight/PopupMaximized/MaximizedWidget
+Prefabs/MaximizedRight/MaximizedRight/PopupMaximized
+Prefabs/MaximizedRight/MaximizedRight
+Prefabs/MinimizedLeft/MinimizedLeft/PopupMinimized/MinimizedWidget
+Prefabs/MinimizedLeft/MinimizedLeft/PopupMinimized
+Prefabs/MinimizedLeft/MinimizedLeft
+Prefabs/MinimizedRight/MinimizedRight/PopupMinimized/MinimizedWidget
+Prefabs/MinimizedRight/MinimizedRight/PopupMinimized
+Prefabs/MinimizedRight/MinimizedRight
+Prefabs/PopupAccidentAheadMaximized/PopupAccidentAheadMaximized/PopupAccidentAheadMaximizedImage
+Prefabs/PopupAccidentAheadMaximized/PopupAccidentAheadMaximized
+Prefabs/PopupAccidentAheadMaximizedImage/PopupAccidentAheadMaximizedImage
+Prefabs/PopupAccidentAheadMinimized/PopupAccidentAheadMinimized/PopupAccidentAheadMinimizedImage
+Prefabs/PopupAccidentAheadMinimized/PopupAccidentAheadMinimized
+Prefabs/PopupAccidentAheadMinimizedImage/PopupAccidentAheadMinimizedImage
+Prefabs/PopupBatteryLowMaximized/PopupBatteryLowMaximized/PopupBatteryLowMaximizedImage
+Prefabs/PopupBatteryLowMaximized/PopupBatteryLowMaximized
+Prefabs/PopupBatteryLowMaximizedImage/PopupBatteryLowMaximizedImage
+Prefabs/PopupBatteryLowMinimized/PopupBatteryLowMinimized/PopupBatteryLowMinimizedImage
+Prefabs/PopupBatteryLowMinimized/PopupBatteryLowMinimized
+Prefabs/PopupBatteryLowMinimizedImage/PopupBatteryLowMinimizedImage
+Prefabs/PopupIncomingCallMaximized/PopupIncomingCallMaximized/PopupIncomingCallMaximizedImage
+Prefabs/PopupIncomingCallMaximized/PopupIncomingCallMaximized
+Prefabs/PopupIncomingCallMaximizedImage/PopupIncomingCallMaximizedImage
+Prefabs/PopupIncomingCallMinimized/PopupIncomingCallMinimized/PopupIncomingCallMinimizedImage
+Prefabs/PopupIncomingCallMinimized/PopupIncomingCallMinimized
+Prefabs/PopupIncomingCallMinimizedImage/PopupIncomingCallMinimizedImage
+Prefabs/PopupNewMessageMaximized/PopupNewMessageMaximized/PopupNewMessageMaximizedImage
+Prefabs/PopupNewMessageMaximized/PopupNewMessageMaximized
+Prefabs/PopupNewMessageMaximizedImage/PopupNewMessageMaximizedImage
+Prefabs/PopupNewMessageMinimized/PopupNewMessageMinimized/PopupNewMessageMinimizedImage
+Prefabs/PopupNewMessageMinimized/PopupNewMessageMinimized
+Prefabs/PopupNewMessageMinimizedImage/PopupNewMessageMinimizedImage
+Prefabs/RightArea/RightArea/MaximizedMinimizedSwitcher
+Prefabs/RightArea/RightArea
+Prefabs/Telltales/Telltales/TelltalesImage
+Prefabs/Telltales/Telltales
+Prefabs/TelltalesImage/TelltalesImage
+Prefabs/WidgetBatteryMaximized/WidgetBatteryMaximized/WidgetBatteryMaximizedImage
+Prefabs/WidgetBatteryMaximized/WidgetBatteryMaximized
+Prefabs/WidgetBatteryMaximizedImage/WidgetBatteryMaximizedImage
+Prefabs/WidgetBatteryMinimized/WidgetBatteryMinimized/WidgetBatteryMinimizedImage
+Prefabs/WidgetBatteryMinimized/WidgetBatteryMinimized
+Prefabs/WidgetBatteryMinimizedImage/WidgetBatteryMinimizedImage
+Prefabs/WidgetMusicMaximized/WidgetMusicMaximized/WidgetMusicMaximizedImage
+Prefabs/WidgetMusicMaximized/WidgetMusicMaximized
+Prefabs/WidgetMusicMaximizedImage/WidgetMusicMaximizedImage
+Prefabs/WidgetMusicMinimized/WidgetMusicMinimized/WidgetMusicMinimizedImage
+Prefabs/WidgetMusicMinimized/WidgetMusicMinimized
+Prefabs/WidgetMusicMinimizedImage/WidgetMusicMinimizedImage
+Prefabs/WidgetNavigationMaximized/WidgetNavigationMaximized/WidgetNavigationMaximizedImage
+Prefabs/WidgetNavigationMaximized/WidgetNavigationMaximized
+Prefabs/WidgetNavigationMaximizedImage/WidgetNavigationMaximizedImage
+Prefabs/WidgetNavigationMinimized/WidgetNavigationMinimized/WidgetNavigationMinimizedImage
+Prefabs/WidgetNavigationMinimized/WidgetNavigationMinimized
+Prefabs/WidgetNavigationMinimizedImage/WidgetNavigationMinimizedImage
+Prefabs/SettingsMenuBar/SettingsMenuBar
+Prefabs/ControlButton/ControlButton/Button
+Prefabs/ControlButton/ControlButton
+Prefabs/ControlCheckbox/ControlCheckbox/Checkbox
+Prefabs/ControlCheckbox/ControlCheckbox
+Prefabs/ControlSlider/ControlSlider/Slider
+Prefabs/ControlSlider/ControlSlider
+Prefabs/ControlToggleButton/ControlToggleButton/Toggle Button
+Prefabs/ControlToggleButton/ControlToggleButton
+Prefabs/Button/Button/Background
+Prefabs/Button/Button/Label
+Prefabs/Button/Button/Border
+Prefabs/Button/Button
+Prefabs/Checkbox/Checkbox/Background_OFF
+Prefabs/Checkbox/Checkbox/Background_ON
+Prefabs/Checkbox/Checkbox/Checkmark
+Prefabs/Checkbox/Checkbox
+Prefabs/Slider/Slider/Rail/KnobTrajectory/RoundKnob
+Prefabs/Slider/Slider/Rail/Slider_Rail_LeftEnd
+Prefabs/Slider/Slider/Rail/Slider_Rail_Fill_Left
+Prefabs/Slider/Slider/Rail/Slider_Rail_Fill_Right
+Prefabs/Slider/Slider/Rail/Slider_Rail_RightEnd
+Prefabs/Slider/Slider/Rail/KnobTrajectory
+Prefabs/Slider/Slider/Rail
+Prefabs/Slider/Slider/<ResourceDictionaryInNode>
+Prefabs/Slider/Slider
+Prefabs/Toggle Button/Toggle Button/Base
+Prefabs/Toggle Button/Toggle Button/Knob
+Prefabs/Toggle Button/Toggle Button/OnOff
+Prefabs/Toggle Button/Toggle Button
+Prefabs/SettingsLayout/SettingsLayout/Previous/Arrow
+Prefabs/SettingsLayout/SettingsLayout/Next/Arrow
+Prefabs/SettingsLayout/SettingsLayout/Previous
+Prefabs/SettingsLayout/SettingsLayout/Next
+Prefabs/SettingsLayout/SettingsLayout
+Prefabs/MainViewSwitcher/MainViewSwitcher/Base
+Prefabs/MainViewSwitcher/MainViewSwitcher/Knob
+Prefabs/MainViewSwitcher/MainViewSwitcher
+Prefabs/GaugeView
+Prefabs/Header
+Prefabs/HeaderImage
+Prefabs/LeftArea
+Prefabs/MainGauge
+Prefabs/MainGaugeImage
+Prefabs/MaximizedLeft
+Prefabs/MaximizedRight
+Prefabs/MinimizedLeft
+Prefabs/MinimizedRight
+Prefabs/PopupAccidentAheadMaximized
+Prefabs/PopupAccidentAheadMaximizedImage
+Prefabs/PopupAccidentAheadMinimized
+Prefabs/PopupAccidentAheadMinimizedImage
+Prefabs/PopupBatteryLowMaximized
+Prefabs/PopupBatteryLowMaximizedImage
+Prefabs/PopupBatteryLowMinimized
+Prefabs/PopupBatteryLowMinimizedImage
+Prefabs/PopupIncomingCallMaximized
+Prefabs/PopupIncomingCallMaximizedImage
+Prefabs/PopupIncomingCallMinimized
+Prefabs/PopupIncomingCallMinimizedImage
+Prefabs/PopupNewMessageMaximized
+Prefabs/PopupNewMessageMaximizedImage
+Prefabs/PopupNewMessageMinimized
+Prefabs/PopupNewMessageMinimizedImage
+Prefabs/RightArea
+Prefabs/Telltales
+Prefabs/TelltalesImage
+Prefabs/WidgetBatteryMaximized
+Prefabs/WidgetBatteryMaximizedImage
+Prefabs/WidgetBatteryMinimized
+Prefabs/WidgetBatteryMinimizedImage
+Prefabs/WidgetMusicMaximized
+Prefabs/WidgetMusicMaximizedImage
+Prefabs/WidgetMusicMinimized
+Prefabs/WidgetMusicMinimizedImage
+Prefabs/WidgetNavigationMaximized
+Prefabs/WidgetNavigationMaximizedImage
+Prefabs/WidgetNavigationMinimized
+Prefabs/WidgetNavigationMinimizedImage
+Prefabs/SettingsMenuBar
+Prefabs/ControlButton
+Prefabs/ControlCheckbox
+Prefabs/ControlSlider
+Prefabs/ControlToggleButton
+Prefabs/Button
+Prefabs/Checkbox
+Prefabs/Slider
+Prefabs/Toggle Button
+Prefabs/SettingsLayout
+Prefabs/MainViewSwitcher
+Page Transitions/Default Transitions
+Resource Files/Images/Background.png
+Resource Files/Images/Header.png
+Resource Files/Images/MainGauge.png
+Resource Files/Images/PopupAccidentAheadMaximizedImage.png
+Resource Files/Images/PopupAccidentAheadMinimizedImage.png
+Resource Files/Images/PopupBatteryLowMaximizedImage.png
+Resource Files/Images/PopupBatteryLowMinimizedImage.png
+Resource Files/Images/PopupIncomingCallMaximizedImage.png
+Resource Files/Images/PopupIncomingCallMinimizedImage.png
+Resource Files/Images/PopupNewMessageMaximizedImage.png
+Resource Files/Images/PopupNewMessageMinimizedImage.png
+Resource Files/Images/Telltales.png
+Resource Files/Images/WidgetBattery.png
+Resource Files/Images/WidgetBatteryMinimized.png
+Resource Files/Images/WidgetMusic.png
+Resource Files/Images/WidgetMusicMinimized.png
+Resource Files/Images/WidgetNavigation.png
+Resource Files/Images/WidgetNavigationMinimized.png
+Resource Files/Images/Arrow.png
+Resource Files/Images/SettingsMenuBar.png
+Resource Files/Images/ToggleButton_Chk-Off.png
+Resource Files/Images/White.png
+Resource Files/Images/Checkmark.png
+Resource Files/Images/Slider_Left_End.png
+Resource Files/Images/Slider_Right_End.png
+Resource Files/Images/Slider_Middle.png
+Resource Files/Images/RoundKnob.png
+Resource Files/Images/Base.png
+Resource Files/Images/RadioButton.png
+Resource Files/Images/BrowseBase.png
+Resource Files/Images/DriveBase.png
+Resource Files/Images/KnobToggleActive.png
+Resource Files/Fonts/roboto-regular.ttf
+Resource Files/Fonts/roboto-light.ttf
+Textures/Background
+Textures/Header
+Textures/MainGauge
+Textures/PopupAccidentAheadMaximizedImage
+Textures/PopupAccidentAheadMinimizedImage
+Textures/PopupBatteryLowMaximizedImage
+Textures/PopupBatteryLowMinimizedImage
+Textures/PopupIncomingCallMaximizedImage
+Textures/PopupIncomingCallMinimizedImage
+Textures/PopupNewMessageMaximizedImage
+Textures/PopupNewMessageMinimizedImage
+Textures/Telltales
+Textures/WidgetBattery
+Textures/WidgetBatteryMinimized
+Textures/WidgetMusic
+Textures/WidgetMusicMinimized
+Textures/WidgetNavigation
+Textures/WidgetNavigationMinimized
+Textures/Arrow
+Textures/SettingsMenuBar
+Textures/ToggleButton_Chk-Off
+Textures/White
+Textures/Checkmark
+Textures/Slider_Right_End
+Textures/Slider_Left_End
+Textures/Slider_Middle
+Textures/RoundKnob
+Textures/Base
+Textures/RadioButton
+Textures/BrowseBase
+Textures/DriveBase
+Textures/KnobToggleActive
+Styles/Text Block 2D Style
+State Managers/Cluster
+State Managers/Button State Manager
+State Managers/Checkbox State Manager
+State Managers/Slider Disable Enable State Manager
+State Managers/Toggle Button State Manager
+State Managers/MainViewSwitcher
+Font Families/Roboto
+/data-driven_activities

@@ -1,0 +1,18 @@
+﻿Files:
+Animation Clips/Animation Clip
+Screens/Screen/RootPage/Map
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/RootPage
+Screens/Screen
+Brushes/DefaultBackground
+Prefabs/Pin/Pin
+Prefabs/Pin
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Page Transitions/Default Transitions
+Resource Files/Images/DefaultBackground.png
+Resource Files/Images/Pin.png
+Resource Files/Images/Map_Big.png
+Textures/DefaultBackground
+Textures/Pin
+Textures/Map_Big
+/pan_zoom_tap

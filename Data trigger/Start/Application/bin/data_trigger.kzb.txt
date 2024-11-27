@@ -1,0 +1,216 @@
+﻿Files:
+PropertyTypeLibrary/Datatrigger.ActivityProperty.Cluster.MainView
+PropertyTypeLibrary/Datatrigger.ActivityProperty.LeftWidget
+PropertyTypeLibrary/Datatrigger.ActivityProperty.RightWidget
+PropertyTypeLibrary/TAG_PROPERTY_TYPE_Transparent
+Screens/Screen/<ResourceDictionaryInNode>
+Screens/Screen/Cluster
+Screens/Screen
+Material Types/Textured
+Materials/TexturedMaterial
+Brushes/Background
+Brushes/Knob Material Brush
+Brushes/LeftSideMenu
+Brushes/RightSideMenu
+Brushes/PopupControl
+Prefabs/Header/Header/HeaderImage
+Prefabs/Header/Header/MainViewSwitcher
+Prefabs/Header/Header/LeftSideMenu
+Prefabs/Header/Header/RightSideMenu
+Prefabs/Header/Header
+Prefabs/Telltales/Telltales/TelltalesImage
+Prefabs/Telltales/Telltales
+Prefabs/GaugeView/GaugeView/GaugeViewActivityHost
+Prefabs/GaugeView/GaugeView
+Prefabs/MainGauge/MainGauge/MainGaugeImage
+Prefabs/MainGauge/MainGauge
+Prefabs/LeftArea/LeftArea/MaximizedMinimizedSwitcher
+Prefabs/LeftArea/LeftArea
+Prefabs/MaximizedLeft/MaximizedLeft/MaximizedWidget
+Prefabs/MaximizedLeft/MaximizedLeft
+Prefabs/WidgetBatteryMaximized/WidgetBatteryMaximized/WidgetBatteryMaximizedImage
+Prefabs/WidgetBatteryMaximized/WidgetBatteryMaximized
+Prefabs/WidgetMusicMaximized/WidgetMusicMaximized/WidgetMusicMaximizedImage
+Prefabs/WidgetMusicMaximized/WidgetMusicMaximized
+Prefabs/WidgetNavigationMaximized/WidgetNavigationMaximized/WidgetNavigationMaximizedImage
+Prefabs/WidgetNavigationMaximized/WidgetNavigationMaximized
+Prefabs/MinimizedLeft/MinimizedLeft/MinimizedWidget
+Prefabs/MinimizedLeft/MinimizedLeft
+Prefabs/WidgetBatteryMinimized/WidgetBatteryMinimized/WidgetBatteryMinimizedImage
+Prefabs/WidgetBatteryMinimized/WidgetBatteryMinimized
+Prefabs/WidgetMusicMinimized/WidgetMusicMinimized/WidgetMusicMinimizedImage
+Prefabs/WidgetMusicMinimized/WidgetMusicMinimized
+Prefabs/WidgetNavigationMinimized/WidgetNavigationMinimized/WidgetNavigationMinimizedImage
+Prefabs/WidgetNavigationMinimized/WidgetNavigationMinimized
+Prefabs/RightArea/RightArea/MaximizedMinimizedSwitcher
+Prefabs/RightArea/RightArea
+Prefabs/MaximizedRight/MaximizedRight/MaximizedWidget
+Prefabs/MaximizedRight/MaximizedRight
+Prefabs/MinimizedRight/MinimizedRight/MinimizedWidget
+Prefabs/MinimizedRight/MinimizedRight
+Prefabs/TelltalesImage/TelltalesImage
+Prefabs/HeaderImage/HeaderImage
+Prefabs/MainGaugeImage/MainGaugeImage
+Prefabs/WidgetBatteryMaximizedImage/WidgetBatteryMaximizedImage
+Prefabs/WidgetMusicMaximizedImage/WidgetMusicMaximizedImage
+Prefabs/WidgetNavigationMaximizedImage/WidgetNavigationMaximizedImage
+Prefabs/WidgetBatteryMinimizedImage/WidgetBatteryMinimizedImage
+Prefabs/WidgetMusicMinimizedImage/WidgetMusicMinimizedImage
+Prefabs/WidgetNavigationMinimizedImage/WidgetNavigationMinimizedImage
+Prefabs/MainViewSwitcher/MainViewSwitcher/Base
+Prefabs/MainViewSwitcher/MainViewSwitcher/Knob
+Prefabs/MainViewSwitcher/MainViewSwitcher
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Battery/BatteryIcon
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Music/MusicIcon
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Navigation/NavigaitonIcon
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Battery
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Music
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D/Navigation
+Prefabs/LeftSideMenu/LeftSideMenu/Stack Layout 2D
+Prefabs/LeftSideMenu/LeftSideMenu
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Battery/BatteryIcon
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Music/MusicIcon
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Navigation/NavigaitonIcon
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Battery
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Music
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D/Navigation
+Prefabs/RightSideMenu/RightSideMenu/Stack Layout 2D
+Prefabs/RightSideMenu/RightSideMenu
+Prefabs/PopupBatteryLowMaximizedImage/PopupBatteryLowMaximizedImage
+Prefabs/PopupAccidentAheadMinimizedImage/PopupAccidentAheadMinimizedImage
+Prefabs/PopupBatteryLowMinimizedImage/PopupBatteryLowMinimizedImage
+Prefabs/PopupAccidentAheadMaximizedImage/PopupAccidentAheadMaximizedImage
+Prefabs/PopupIncomingCallMaximizedImage/PopupIncomingCallMaximizedImage
+Prefabs/PopupIncomingCallMinimizedImage/PopupIncomingCallMinimizedImage
+Prefabs/PopupNewMessageMaximizedImage/PopupNewMessageMaximizedImage
+Prefabs/PopupNewMessageMinimizedImage/PopupNewMessageMinimizedImage
+Prefabs/PopupControl/PopupControl/NewMessage/NewMessageIcon
+Prefabs/PopupControl/PopupControl/IncomingCall/IncomingCallIcon
+Prefabs/PopupControl/PopupControl/BatteryLow/BatteryLowIcon
+Prefabs/PopupControl/PopupControl/AccidentAhead/AccidentAheadIcon
+Prefabs/PopupControl/PopupControl/NewMessage
+Prefabs/PopupControl/PopupControl/IncomingCall
+Prefabs/PopupControl/PopupControl/BatteryLow
+Prefabs/PopupControl/PopupControl/AccidentAhead
+Prefabs/PopupControl/PopupControl
+Prefabs/Header
+Prefabs/Telltales
+Prefabs/GaugeView
+Prefabs/MainGauge
+Prefabs/LeftArea
+Prefabs/MaximizedLeft
+Prefabs/WidgetBatteryMaximized
+Prefabs/WidgetMusicMaximized
+Prefabs/WidgetNavigationMaximized
+Prefabs/MinimizedLeft
+Prefabs/WidgetBatteryMinimized
+Prefabs/WidgetMusicMinimized
+Prefabs/WidgetNavigationMinimized
+Prefabs/RightArea
+Prefabs/MaximizedRight
+Prefabs/MinimizedRight
+Prefabs/TelltalesImage
+Prefabs/HeaderImage
+Prefabs/MainGaugeImage
+Prefabs/WidgetBatteryMaximizedImage
+Prefabs/WidgetMusicMaximizedImage
+Prefabs/WidgetNavigationMaximizedImage
+Prefabs/WidgetBatteryMinimizedImage
+Prefabs/WidgetMusicMinimizedImage
+Prefabs/WidgetNavigationMinimizedImage
+Prefabs/MainViewSwitcher
+Prefabs/LeftSideMenu
+Prefabs/RightSideMenu
+Prefabs/PopupBatteryLowMaximizedImage
+Prefabs/PopupAccidentAheadMinimizedImage
+Prefabs/PopupBatteryLowMinimizedImage
+Prefabs/PopupAccidentAheadMaximizedImage
+Prefabs/PopupIncomingCallMaximizedImage
+Prefabs/PopupIncomingCallMinimizedImage
+Prefabs/PopupNewMessageMaximizedImage
+Prefabs/PopupNewMessageMinimizedImage
+Prefabs/PopupControl
+Resource Files/Images/Background.png
+Resource Files/Images/Telltales.png
+Resource Files/Images/Header.png
+Resource Files/Images/MainGauge.png
+Resource Files/Images/WidgetBattery.png
+Resource Files/Images/WidgetMusic.png
+Resource Files/Images/WidgetNavigation.png
+Resource Files/Images/WidgetBatteryMinimized.png
+Resource Files/Images/WidgetMusicMinimized.png
+Resource Files/Images/WidgetNavigationMinimized.png
+Resource Files/Images/PopupAccidentAheadMaximizedImage.png
+Resource Files/Images/PopupAccidentAheadMinimizedImage.png
+Resource Files/Images/PopupBatteryLowMaximizedImage.png
+Resource Files/Images/PopupBatteryLowMinimizedImage.png
+Resource Files/Images/PopupIncomingCallMaximizedImage.png
+Resource Files/Images/PopupIncomingCallMinimizedImage.png
+Resource Files/Images/PopupNewMessageMaximizedImage.png
+Resource Files/Images/PopupNewMessageMinimizedImage.png
+Resource Files/Images/RightMenuBarTexture.png
+Resource Files/Images/WarningIconGray.png
+Resource Files/Images/Base.png
+Resource Files/Images/BatteryIcon.png
+Resource Files/Images/BatteryIconGray.png
+Resource Files/Images/BrowseBase.png
+Resource Files/Images/DriveBase.png
+Resource Files/Images/KnobToggleActive.png
+Resource Files/Images/LeftMenuBarTexture.png
+Resource Files/Images/MediaIcon.png
+Resource Files/Images/MediaIconGray.png
+Resource Files/Images/MessageIconGray.png
+Resource Files/Images/MessageIcon.png
+Resource Files/Images/NavigationIcon.png
+Resource Files/Images/NavigationIconGray.png
+Resource Files/Images/PhoneIcon.png
+Resource Files/Images/PhoneIconGray.png
+Resource Files/Images/PopupControl.png
+Resource Files/Images/WarningIcon.png
+Resource Files/Images/CautionIcon.png
+Resource Files/Images/CautionIconGray.png
+Textures/Telltales
+Textures/Background
+Textures/Header
+Textures/MainGauge
+Textures/WidgetBattery
+Textures/WidgetMusic
+Textures/WidgetNavigation
+Textures/WidgetBatteryMinimized
+Textures/WidgetMusicMinimized
+Textures/WidgetNavigationMinimized
+Textures/PopupAccidentAheadMaximizedImage
+Textures/PopupAccidentAheadMinimizedImage
+Textures/PopupBatteryLowMaximizedImage
+Textures/PopupBatteryLowMinimizedImage
+Textures/PopupIncomingCallMaximizedImage
+Textures/PopupIncomingCallMinimizedImage
+Textures/PopupNewMessageMaximizedImage
+Textures/PopupNewMessageMinimizedImage
+Textures/Base
+Textures/KnobToggleActive
+Textures/BrowseBase
+Textures/DriveBase
+Textures/LeftMenuBarTexture
+Textures/RightMenuBarTexture
+Textures/BatteryIcon
+Textures/BatteryIconGray
+Textures/MediaIcon
+Textures/MediaIconGray
+Textures/NavigationIcon
+Textures/NavigationIconGray
+Textures/PopupControl
+Textures/PhoneIcon
+Textures/PhoneIconGray
+Textures/WarningIcon
+Textures/WarningIconGray
+Textures/CautionIcon
+Textures/CautionIconGray
+Textures/MessageIcon
+Textures/MessageIconGray
+Styles/Text Block 2D Style
+State Managers/Cluster
+State Managers/MainViewSwitcher
+State Managers/SideMenu
+State Managers/PopupMenu
+/data_trigger

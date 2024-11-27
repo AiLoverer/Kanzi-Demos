@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/xuqiang/github/Kanzi-Demos/Data Source/Application/src/plugin/CMakeLists.txt
+  data_object_static_list.cpp
+  xmldatasource.cpp
+  xmldatasource_module.cpp
+  tinyxml2.cpp
+    正在创建库 D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/Release/XML_data_source_start.lib 和对象 D:/xuqiang/github/Kanzi-Demos/Data Source/Application/build_vs2019/src/plugin/Release/XML_data_source_start.exp
+  XML_data_source_start.vcxproj -> D:\xuqiang\github\Kanzi-Demos\Data Source\Application\build_vs2019\runtime\Release\XML_data_source_start.dll
