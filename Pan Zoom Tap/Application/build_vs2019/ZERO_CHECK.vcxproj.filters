@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\xuqiang\github\Kanzi-Demos\Pan Zoom Tap\Application\build_vs2019\CMakeFiles\2e153ac8ea0c92dee0ceef235ba9f735\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{642309F0-0FD4-3796-A88F-05FF5DC426CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

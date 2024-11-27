@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-27 15:46:43
+ * @LastEditTime: 2024-11-27 17:26:31
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -117,3 +117,15 @@
 - 焦点导航
 
 <img src="./res/preview-navigate-lists.gif" alt="效果图" width="850" height="550">
+
+## Pan Zoom Tap
+本仓库的这一步中主要学习Tab Zoom Pan 方式操作地图
+
+- Pan
+- Zoom
+- Tap
+
+<video width="640" height="360" controls>
+  <source src="./res/pan-zoom-tap-completed.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
