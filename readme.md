@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-27 17:26:31
+ * @LastEditTime: 2024-11-27 17:44:19
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -55,7 +55,7 @@
 
 - Button  
 
-<img src="./res/end-of-first-section.png" alt="效果图" width="650" height="350">
+<img src="./res/button-states.gif" alt="效果图" width="650" height="350">
 
 - Slider
 
@@ -125,7 +125,5 @@
 - Zoom
 - Tap
 
-<video width="640" height="360" controls>
-  <source src="./res/pan-zoom-tap-completed.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="./res/Pan Zoom Tap.gif" alt="效果图" width="850" height="550">
+
