@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-26 11:17:43
+ * @LastEditTime: 2024-11-27 15:46:43
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -109,3 +109,11 @@
 在本仓库的这一步中主要学习使用Scroll View 2D 旋转3D车模
 
 <img src="./res/rotation-completed.gif" alt="效果图" width="650" height="350">
+
+## Input UI Navigation
+本仓库的这一步中主要学习使用Input输入控制UI焦点
+
+- 焦点获取和取消
+- 焦点导航
+
+<img src="./res/preview-navigate-lists.gif" alt="效果图" width="850" height="550">
