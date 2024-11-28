@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-28 10:39:52
+ * @LastEditTime: 2024-11-28 14:04:52
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -9,8 +9,9 @@
 # 介绍
 本仓库主要是前期学习Kanzi技术的一个过程记录
 
-# 仓库介绍和说明
-## Getting Started
+# 仓库分类介绍和说明
+## 基础向导
+### Getting Started
 在本仓库的这一步中主要学习：  
 - 熟悉Kanzi里面的一些简单流程
 - 按钮 
@@ -20,7 +21,7 @@
 
 <img src="./res/getting-started-completed.gif" alt="效果图" width="850" height="550">
 
-## First Application
+### First Application
 在本仓库的这一步中主要学习：  
 - 属性
 - Kanzi状态切换 
@@ -28,7 +29,7 @@
 - 效卡片制作 
 - 布局  
 ![效果图](./res/First%20Application.gif)  
-## Activity
+### Activity
 在本仓库的这一步中主要学习：
 
 - 关于不同类型的Activity节点
@@ -39,7 +40,7 @@
 
 <img src="./res/ab-left-area.gif" alt="效果图" width="850" height="550">
 
-## Data Triger
+### Data Triger
 在本仓库的这一步中主要学习：
 - 如何使用条件来控制应用程序 UI
 - 如何通过创建弹出窗口来控制组成 UI 的活动的激活状态，应用程序仅在满足数据触发器中的条件时才会显示这些弹出窗口
@@ -47,7 +48,8 @@
 
 <img src="./res/dt-complete.gif" alt="效果图" width="850" height="550">
 
-## Components  
+## UI Controls 界面控制
+### Components  
 在本仓库的这一步中主要学习自定义控件：
 - Toggle Button  
 
@@ -65,7 +67,7 @@
 
 <img src="./res/list-box.gif" alt="效果图" width="650" height="350">
 
-## Data Source
+### Data Source
 在本仓库的这一步中主要学习应用程序使用数据源插件：
 - 数据源将用户界面与应用程序数据分离
 - 通过定义 Kanzi Engine 数据源插件来定义数据源的格式和结构
@@ -73,20 +75,20 @@
 
 <img src="./res/end-of-step-3.png" alt="效果图" width="850" height="350">
 
-## Data-Driven Activities
+### Data-Driven Activities
 在本仓库的这一步中主要学习使用数据驱动来显示Activity：
 - 数据驱动的独占活动主机和列表数据源来创建一个设置面板  
 
 <img src="./res/controls-data-source.gif" alt="效果图" width="850" height="320">
 
-## Multi-Project  
+### Multi-Project  
 在本仓库的这一步中主要学习组合多个 Kanzi Studio 项目来创建单个 Kanzi 应用程序：
 - 使用公共资源（不用的资源尽量删除）
 - 一个项目控制另外一个项目控件
 
 <img src="./res/completed.png" alt="效果图" width="850" height="320">
 
-## Android Getting Started
+### Android Getting Started
 在本仓库的这一步中主要学习使用 Kanzi Android 框架 (droidfw) 开始开发 Android 应用程序：
 - 在 Android 视图中显示 Kanzi 预制件
 - 使用 Kanzi Java API 访问和修改应用程序
@@ -97,7 +99,7 @@
 
 <img src="./res/android-getting-started-completed.gif" alt="效果图" width="850" height="550">
 
-## Android Data Source (※)
+### Android Data Source (※)
 在本仓库的这一步中主要学习使用为Android 版 Kanzi 应用程序创建数据源
 - 使用 Kanzi Java API 创建数据源。
 - 使用Android API来支持数据源。
@@ -105,12 +107,13 @@
 
 <img src="./res/android-data-source-complete.gif" alt="效果图" width="650" height="350">
 
-## Rotate a 3D Car model
+### Rotate a 3D Car model
 在本仓库的这一步中主要学习使用Scroll View 2D 旋转3D车模
 
 <img src="./res/rotation-completed.gif" alt="效果图" width="650" height="350">
 
-## Input UI Navigation
+## Input 输入输出
+### Input UI Navigation
 本仓库的这一步中主要学习使用Input输入控制UI焦点
 
 - 焦点获取和取消
@@ -118,7 +121,7 @@
 
 <img src="./res/preview-navigate-lists.gif" alt="效果图" width="850" height="550">
 
-## Pan Zoom Tap
+### Pan Zoom Tap
 本仓库的这一步中主要学习Tab Zoom Pan 方式操作地图
 
 - Pan
@@ -127,7 +130,7 @@
 
 <img src="./res/Pan Zoom Tap.gif" alt="效果图" width="850" height="550">
 
-## Drag and Drop
+### Drag and Drop
 本仓库的这一步中主要学习使用C++代码控制拖动按钮效果：
 - DragAndDropManipulator控制器实现拖拽事件
 - Animation实现动画shake效果
@@ -136,3 +139,22 @@
 
 <img src="./res/drag-and-drop-completed.gif" alt="效果图" width="850" height="550">
 
+## Rendering 渲染
+### Material and Textures
+本仓库的这一步中主要学习材质和纹理的使用
+- 导入Assets
+- 创建材质和纹理
+- 修改材质和纹理参数
+- 双色车身
+
+<img src="./res/double-paint.png" alt="效果图" width="850" height="750">
+
+### Gaussian Blur
+本仓库的这一步中主要学习高斯模糊
+- Gaussian blur
+- 数据触发器
+- 数据绑定
+- Apply Property Action
+- 状态管理器
+
+<img src="./res/blur-completed1.gif" alt="效果图" width="850" height="450">

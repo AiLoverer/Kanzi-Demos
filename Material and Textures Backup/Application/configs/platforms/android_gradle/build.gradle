@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options that are common to all sub-projects or modules.
+
+buildscript {
+    apply from: 'getkanzi.gradle'
+
+    repositories {
+        google()
+        mavenCentral()
+        flatDir { dirs getKanziPlugins().toString() }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.rightware.gradle:kanzi:0.8.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        flatDir { dirs getKanziAndroidPath().toString() }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
