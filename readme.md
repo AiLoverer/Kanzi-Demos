@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-27 17:44:19
+ * @LastEditTime: 2024-11-28 10:39:52
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -126,4 +126,13 @@
 - Tap
 
 <img src="./res/Pan Zoom Tap.gif" alt="效果图" width="850" height="550">
+
+## Drag and Drop
+本仓库的这一步中主要学习使用C++代码控制拖动按钮效果：
+- DragAndDropManipulator控制器实现拖拽事件
+- Animation实现动画shake效果
+- C++动态创建对象和绑定属性
+- 容器对象迭代器使用
+
+<img src="./res/drag-and-drop-completed.gif" alt="效果图" width="850" height="550">
 
