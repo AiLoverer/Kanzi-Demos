@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-29 14:43:47
+ * @LastEditTime: 2024-11-29 17:40:15
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -215,6 +215,19 @@
 - Tag和Tag Filter绑定
 
 <img src="./res/progressive-rendering-completed.gif" alt="效果图" width="850" height="350">
+
+## Animations
+### Keyframe Animations 
+本仓库的这一步中主要学习关键帧动画
+- Animation Clip Editor 动画剪辑编辑器
+- Animation Clip
+- Animation Data
+- Timeline Entry
+- Timeline Sequence
+
+<span style="color: red;">[**知识点**]</span>：注意清除不需要的关键帧数据
+
+<img src="./res/keyframe---final.gif" alt="效果图" width="850" height="450">
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
