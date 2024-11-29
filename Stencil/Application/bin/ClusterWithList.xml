@@ -1,0 +1,54 @@
+<gauges>
+    <speed type="int">90
+        <unit type="string">km/h</unit>
+    </speed>
+    <fuel type="int">75</fuel>
+    <battery type="int">20</battery>
+</gauges>
+<turnindicator>
+    <left type="bool">true</left>
+    <right type="bool">false</right>
+</turnindicator>
+<navigation>
+    <directions>
+        <visualdirections type="int">1</visualdirections>
+        <distance type="string">5 mi</distance>
+        <instructions type="int">1</instructions>
+    </directions>
+</navigation>
+<contacts type="list">
+    <items>
+        <contact>
+            <firstname type="string">Rob</firstname>
+            <lastname type="string">Krar</lastname>
+        </contact>
+        <contact>
+            <firstname type="string">Anna</firstname>
+            <lastname type="string">Frost</lastname>
+        </contact>
+        <contact>
+            <firstname type="string">Kwamie</firstname>
+            <lastname type="string">Liv</lastname>
+        </contact>
+        <contact>
+            <firstname type="string">Ricky</firstname>
+            <lastname type="string">Gates</lastname>
+        </contact>
+		<contact>
+            <firstname type="string">Myra</firstname>
+            <lastname type="string">Bradley</lastname>
+        </contact>
+		<contact>
+            <firstname type="string">Todd</firstname>
+            <lastname type="string">Ellis</lastname>
+        </contact>
+		<contact>
+            <firstname type="string">Fanny</firstname>
+            <lastname type="string">Pearson</lastname>
+        </contact>
+		<contact>
+            <firstname type="string">Marian</firstname>
+            <lastname type="string">Hines</lastname>
+        </contact>		
+    </items>
+</contacts>
