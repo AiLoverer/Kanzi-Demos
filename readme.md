@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-28 14:04:52
+ * @LastEditTime: 2024-11-29 10:06:23
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -149,7 +149,7 @@
 
 <img src="./res/double-paint.png" alt="效果图" width="850" height="750">
 
-### Gaussian Blur
+### Gaussian Blur 高斯模糊
 本仓库的这一步中主要学习高斯模糊
 - Gaussian blur
 - 数据触发器
@@ -158,3 +158,13 @@
 - 状态管理器
 
 <img src="./res/blur-completed1.gif" alt="效果图" width="850" height="450">
+
+### Bloom 光晕
+本仓库的这一步中主要学习车灯光晕效果
+- 渲染通道
+- 渲染材质文件和材质类型
+- Rendering Pass相关组合
+- 数据绑定
+- bloom参数调节
+
+<img src="./res/bloom-completed.gif" alt="效果图" width="850" height="450">
