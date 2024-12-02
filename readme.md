@@ -247,6 +247,15 @@
 
 <img src="./res/preview-show-activity-transitions-with-scaling-and-easing-function.gif" alt="效果图" width="850" height="350">
 
+## Localization and Theming 
+### Localization
+- 资源表
+- 资源字段配置
+- 触发器使用
+- 资源加载
+  
+<img src="./res/localization-completed.gif" alt="效果图" width="850" height="450">
+
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
 &nbsp;&nbsp;**Progressive Rendering(渐进式渲染)** 是一种渲染技术，它将复杂的渲染任务分解成多个小部分，并在多帧中逐步完成这些部分。这种方法可以显著减少单帧的渲染时间，从而提高应用程序的性能和响应性。渐进式渲染通常用于处理非常复杂的场景或需要高计算量的渲染任务，如高质量的光照、阴影、反射等。  
