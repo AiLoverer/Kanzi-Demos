@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kanzi Studio\n"
+"POT-Creation-Date: 12/02/2024 20:25:51\n"
+"POT-Revision-Date: 12/02/2024 20:25:51\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Kanzi Studio\n"
+"X-Poedit-Basepath: ."
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es-ES\n"
+"X-Poedit-KeywordsList: \n"
+
+msgctxt "LOCATION INFORMATION"
+msgid "LOCATION INFORMATION"
+msgstr "INFORMACIÓN DE LOCALIZACIÓN"
+
+msgctxt "24 Hours of Le Mans"
+msgid "24 Hours of Le Mans"
+msgstr "24 Horas de Le Mans"
+
+msgctxt "Overview"
+msgid "Overview"
+msgstr "Resumen"
+
+msgctxt "Source: Wikipedia"
+msgid "Source: Wikipedia"
+msgstr "Fuente: Wikipedia"
+
+msgctxt "The 24 Hours of Le Mans (French: 24 Heures du Mans"
+msgid "The 24 Hours of Le Mans (French: 24 Heures du Mans) is the world's oldest active sports car race in endurance racing, held annually since 1923 near the town of Le Mans, France. It is one of the most prestigious automobile races in the world and is often called the Grand Prix of Endurance and Efficiency. The event represents one leg of the Triple Crown of Motorsport, other events being the Indianapolis 500 and the Monaco Grand Prix."
+msgstr "Las 24 Horas de Le Mans (24 Heures du Mans) es una carrera de resistencia que se corre anualmente en el mes de junio en el circuito de la Sarthe, cerca de Le Mans, Francia. Es organizada por el Automobile Club de l'Ouest (ACO). Ha sido puntuable para el Campeonato Mundial de Resistencia entre las décadas de 1950 y 1990, y nuevamente desde 2010. Es la carrera de automovilismo de resistencia más prestigiosa del mundo, y reúne a pilotos y equipos de diferentes campeonatos nacionales e internacionales."
+
+msgctxt "Read more"
+msgid "Read more"
+msgstr "Leer más"
+
+msgctxt "Destination"
+msgid "Destination"
+msgstr "Destino"
+
+msgctxt "HOME"
+msgid "HOME"
+msgstr "HOME"
+
+msgctxt "NAVIGATION"
+msgid "NAVIGATION"
+msgstr "NAVEGACIÓN"
+
+msgctxt "MUSIC"
+msgid "MUSIC"
+msgstr "MÚSICA"
+
+msgctxt "SOCIAL"
+msgid "SOCIAL"
+msgstr "SOCIAL"
+
+msgctxt "APPLICATION"
+msgid "APPLICATION"
+msgstr "APLICACIÓN"
+
+msgctxt "SETTINGS"
+msgid "SETTINGS"
+msgstr "AJUSTES"
+
+msgctxt "Select language:"
+msgid "Select language:"
+msgstr "Seleccionar idioma:"
+

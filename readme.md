@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-29 17:46:37
+ * @LastEditTime: 2024-12-02 14:25:41
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -235,8 +235,17 @@
 - 插值触发器
 - 插值表达式
 
-
 <img src="./res/interpolate-completed.gif" alt="效果图" width="850" height="550">
+
+### Activity Transitions
+本仓库的这一步中主要学习Activity直接的转换动画
+
+- State Manager
+- Trasition Editor
+- Trasition Animations
+
+
+<img src="./res/preview-show-activity-transitions-with-scaling-and-easing-function.gif" alt="效果图" width="850" height="350">
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  

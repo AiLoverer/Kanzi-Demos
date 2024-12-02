@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko-KR\n"
+
+msgctxt "HOME"
+msgid "HOME"
+msgstr "홈"
+
+msgctxt "NAVIGATION"
+msgid "NAVIGATION"
+msgstr "네비게이션"
+
+msgctxt "MUSIC"
+msgid "MUSIC"
+msgstr "뮤직"
+
+msgctxt "SOCIAL"
+msgid "SOCIAL"
+msgstr "소셜"
+
+msgctxt "APPLICATION"
+msgid "APPLICATION"
+msgstr "응용프로그램"
+
+msgctxt "SETTINGS"
+msgid "SETTINGS"
+msgstr "환경설정"
+
+msgctxt "Select language:"
+msgid "Select language:"
+msgstr "언어 선택"
+
+msgctxt "LOCATION INFORMATION"
+msgid "LOCATION INFORMATION"
+msgstr "위치 정보"
+
+msgctxt "24 Hours of Le Mans"
+msgid "24 Hours of Le Mans"
+msgstr "르망 24시"
+
+msgctxt "Overview"
+msgid "Overview"
+msgstr "개요"
+
+msgctxt "Source: Wikipedia"
+msgid "Source: Wikipedia"
+msgstr "자료제공 : 위키백과"
+
+msgctxt "The 24 Hours of Le Mans (French: 24 Heures du Mans"
+msgid "The 24 Hours of Le Mans (French: 24 Heures du Mans) is the world's oldest active sports car race in endurance racing, held annually since 1923 near the town of Le Mans, France. It is one of the most prestigious automobile races in the world and is often called the Grand Prix of Endurance and Efficiency. The event represents one leg of the Triple Crown of Motorsport, other events being the Indianapolis 500 and the Monaco Grand Prix."
+msgstr "르망 24시(프랑스어: 24 heures du Mans, The 24 Hours of Le Mans)는 스포츠 자동차 내구 경주[endurance race]이다. 프랑스 내 지역 자동차 협회인 오토 클럽 드 뤠스트〔프랑스어: Automobile Club de L'Ouest, ACO〕가 주관하고 매년 6월 프랑스 르망에서 가까운 라 샤르트 경주장〔프랑스어: Circuit de la Sarthe〕에서 개최된다. 6월은 상징성을 띠는데 1923년 5월 26일과 27일 첫째 르망 24시 대회가 개최된 후로 몇 회를 제외하고 매년 6월에 대회가 개최돼 왔다."
+
+msgctxt "Read more"
+msgid "Read more"
+msgstr "자세히보기"
+
+msgctxt "Destination"
+msgid "Destination"
+msgstr "목적지"
