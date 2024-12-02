@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-11-29 17:40:15
+ * @LastEditTime: 2024-11-29 17:46:37
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -228,6 +228,15 @@
 <span style="color: red;">[**知识点**]</span>：注意清除不需要的关键帧数据
 
 <img src="./res/keyframe---final.gif" alt="效果图" width="850" height="450">
+
+### Interpolate Animations
+本仓库的这一步中主要学习插值动画
+- 插值属性
+- 插值触发器
+- 插值表达式
+
+
+<img src="./res/interpolate-completed.gif" alt="效果图" width="850" height="550">
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
