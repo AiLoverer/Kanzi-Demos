@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-03 15:45:50
+ * @LastEditTime: 2024-12-03 16:12:44
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -295,6 +295,22 @@
 <img src="./res/indicator-step2-completed-with-needle.gif" alt="效果图" width="850" height="550">   
 
 ### Dynamic Layout
+本仓库的这一步中主要学习动态布局
+- Grid Layout 2D
+- bindings
+- clamp function
+
+<img src="./res/dynamic-layout.gif" alt="效果图" width="850" height="450">   
+
+<span style="color: red;">[**知识点**]</span> 动态布局的用户界面可响应设备屏幕方向和分辨率的变化
+
+## C++ API
+### Hello World
+本仓库的这一步中主要学习在Kanzi Studio 应用程序中使用C++进行输出
+
+<span style="color: red;">[**知识点**]</span> 虽然您可以在 Kanzi Studio 中为 Kanzi 应用程序创建大量 UI 逻辑，但如果您想充分利用 Kanzi，则必须通过 Kanzi Engine API 使用 Kanzi Engine。
+
+<img src="./res/end-of-step-21.png" alt="效果图" width="850" height="450">   
 
 
 # 如何提高渲染性能
