@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-03 11:45:11
+ * @LastEditTime: 2024-12-03 14:34:36
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -271,6 +271,19 @@
 
 
 <img src="./res/theme-completed.gif" alt="效果图" width="850" height="450">
+
+## Instrument cluster
+### Gauges
+本仓库的这一步中主要学习表盘控制
+- control needle
+- control proerty
+- 自定义属性
+
+<span style="color: red;">[**知识点**]</span> **属性** 提供了指定和检查节点的状态、外观和行为的方法。例如，属性可以定义颜色，指示是否按下按钮，或指定项的对齐方式。
+
+<img src="./res/gauges-completed.gif" alt="效果图" width="850" height="350">   
+
+
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
