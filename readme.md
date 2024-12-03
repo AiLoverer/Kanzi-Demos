@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-02 14:25:41
+ * @LastEditTime: 2024-12-03 11:45:11
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -249,12 +249,28 @@
 
 ## Localization and Theming 
 ### Localization
+本仓库的这一步中主要学习本地化应用
 - 资源表
 - 资源字段配置
 - 触发器使用
 - 资源加载
   
 <img src="./res/localization-completed.gif" alt="效果图" width="850" height="450">
+
+### Localization for right-to-left locales
+本仓库的这一步中主要学习本地化中从右到左（阿拉伯文等）
+省略
+
+### Theming
+本仓库的这一步中主要学习不同主题和风格切换
+- 主题资源组
+- 主题资源添加
+- 主题资源属性设置
+- Style风格设置
+- 主题资源导出和API加载
+
+
+<img src="./res/theme-completed.gif" alt="效果图" width="850" height="450">
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
