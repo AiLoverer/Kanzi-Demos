@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-03 14:34:36
+ * @LastEditTime: 2024-12-03 15:45:50
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -283,6 +283,18 @@
 
 <img src="./res/gauges-completed.gif" alt="效果图" width="850" height="350">   
 
+### Indicator
+本仓库的这一步中主要学习指示灯控制
+- 油箱指示灯
+- 头灯指示灯
+- 属性绑定
+- 状态管理器
+
+<img src="./res/indicator-step1-completed.gif" alt="效果图" width="850" height="450">   
+
+<img src="./res/indicator-step2-completed-with-needle.gif" alt="效果图" width="850" height="550">   
+
+### Dynamic Layout
 
 
 # 如何提高渲染性能
