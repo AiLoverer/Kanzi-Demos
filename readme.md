@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-03 16:12:44
+ * @LastEditTime: 2024-12-04 10:46:13
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -312,6 +312,13 @@
 
 <img src="./res/end-of-step-21.png" alt="效果图" width="850" height="450">   
 
+### Program Activities with C++ Code Behind
+本仓库的这一步中主要学习如何使用Code Behind工作流对Activities进行编程。您使用 C++ Code Behind使用户能够通过从小部件列表中拖放小部件来选择小部件.
+- Code Behind workflow
+- dragging and dropping a widget
+
+<img src="./res/code-behind-drag-widgets.gif" alt="效果图" width="850" height="320">   
+
 
 # 如何提高渲染性能
 ## 采用Progressive Rendering技术  
@@ -325,4 +332,62 @@
    •渐进式渲染允许在多帧中逐步累积渲染结果，从而实现更高的视觉质量。这对于需要复杂光照和全局光照效果的场景尤为重要。
 4. 平滑过渡：    
    •渐进式渲染可以提供平滑的视觉过渡，因为每一帧都在逐步改进最终图像的质量。用户可以看到图像逐渐变得清晰和详细。
+
+
+# 如何提高程序启动时间或加载时间
+- Loading resources in parallel 在多个线程中加载资源，以使用设备中的多个核心。
+- Loading node prefab resources asynchronously.异步加载资源以改进应用程序启动或响应。
+- Setting how Kanzi Engine handles unused resources.查明资源是否正在使用，并卸载未使用的资源。这允许您创建复杂的应用程序，其中并非所有资源都可以同时放入内存。
+
+# 应用程序性能和内存优化方式
+1. GPU Only  
+   •描述：资源仅部署到 GPU 内存，并在部署后立即从 RAM 中释放。  
+   •特点：   
+   •优点：最大限度地减少了 RAM 的占用，因为资源不会保留在系统内存中。  
+   •缺点：如果需要重新加载资源（例如，应用恢复或切换场景），必须重新从存储介质加载，这可能导致较长的加载时间。  
+   •适用场景：   
+   •当你希望最小化 RAM 使用，且可以接受较长的加载时间时，适用于资源频繁更换但不常使用的场景。   
+```cpp
+// 假设有一个纹理资源
+Texture* texture = new Texture("path/to/texture.png");
+texture->setMemoryPolicy(Texture::MEMORY_POLICY_GPU_ONLY);
+
+```
+2. GPU and RAM   
+   •描述：资源同时部署到 GPU 和 RAM 内存中。Kanzi 会根据平台和应用自动管理资源的加载和卸载。  
+   •特点：   
+   •优点：提供了更快的恢复时间，因为资源已经在 RAM 中缓存，可以在需要时快速重新部署到 GPU。  
+   •缺点：消耗更多的 RAM，因为资源同时存在于两个地方。  
+   •适用场景：   
+   •当你需要快速恢复资源（例如，在 Android 设备上快速切换前后台），并且愿意用更多的 RAM 换取更好的用户体验时。  
+```cpp
+// 假设有一个纹理资源
+Texture* texture = new Texture("path/to/texture.png");
+texture->setMemoryPolicy(Texture::MEMORY_POLICY_GPU_AND_RAM);
+```
+3. RAM Only  
+   •描述：资源默认保留在 RAM 中，仅在应用代码明确指示时才部署到 GPU 内存中。Kanzi 会在应用代码释放资源时将其从 GPU 内存中卸载。  
+   •特点：   
+   •优点：节省了 GPU 内存，只有在需要时才会将资源加载到 GPU，适合动态加载和卸载资源的场景。  
+   •缺点：每次需要使用资源时都需要手动加载到 GPU，增加了开发复杂度。  
+   •适用场景：   
+   •当你有大量资源但不是所有资源都经常使用时，可以通过按需加载来优化 GPU 内存使用。  
+```cpp
+// 假设有一个纹理资源
+Texture* texture = new Texture("path/to/texture.png");
+texture->setMemoryPolicy(Texture::MEMORY_POLICY_RAM_ONLY);
+
+// 在需要时手动加载到 GPU
+texture->loadToGPU();
+
+// 使用完毕后手动卸载
+texture->unloadFromGPU();
+
+```  
+
+| 策略 | RAM 占用 | GPU 占用 | 加载时间 | 适用场景 |
+| --- | --- | --- | --- | --- |
+| **GPU Only** | 最小 | 长期 | 较长 | 资源频繁更换但不常使用 |
+| **GPU and RAM** | 较大 | 长期 | 较短 | 快速恢复资源需求 |
+| **RAM Only** | 较小 | 长期 | 按需 | 可变动态加载和卸载 |
 

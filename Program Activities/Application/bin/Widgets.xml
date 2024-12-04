@@ -1,0 +1,19 @@
+<Widgets type="list">
+    <items>
+        <Widget>
+            <Name type="string">Battery</Name>
+            <Icon type="string">file://./WidgetIconBattery.png</Icon>
+            <WidgetId type="int">0</WidgetId>
+        </Widget>
+        <Widget>
+            <Name type="string">Music</Name>
+            <Icon type="string">file://./WidgetIconMusic.png</Icon>
+            <WidgetId type="int">1</WidgetId>
+        </Widget>
+        <Widget>
+            <Name type="string">Navigation</Name>
+            <Icon type="string">file://./WidgetIconNavigation.png</Icon>
+            <WidgetId type="int">2</WidgetId>
+        </Widget>
+    </items>
+</Widgets>
