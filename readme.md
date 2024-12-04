@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-04 16:13:23
+ * @LastEditTime: 2024-12-04 16:25:46
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -457,7 +457,7 @@ texture->unloadFromGPU();
     - 线性色彩空间，将线性预叠属性设置为启用。这是默认值，结果是sRGB图像中的工件最少。
     - 图像的色彩空间，通常为sRGB，将线性预叠属性设置为禁用。这可以为传统颜色工作流创建的图像提供更好的结果。
   
-  ## Mesh Optimize 网格优化
+## Mesh Optimize 网格优化
     网格和纹理在影响任何3D应用程序的性能方面都起着重要作用。为了提高Kanzi应用程序中的网格效率：
 - **减少网格中的顶点数据量**
 - **减少渲染顶点的数量**
@@ -501,7 +501,7 @@ texture->unloadFromGPU();
 4. 平滑过渡：    
    •渐进式渲染可以提供平滑的视觉过渡，因为每一帧都在逐步改进最终图像的质量。用户可以看到图像逐渐变得清晰和详细。
 
-### Shader Optimize 着色器优化
+## Shader Optimize 着色器优化
 在 Kanzi 应用程序中使用着色器的最佳实践是：
 
 - **通过降低精度并将计算从片段移至顶点来优化片段着色器**
@@ -522,7 +522,7 @@ texture->unloadFromGPU();
 
 - **将您想要在多个着色器中使用的功能放入单独的着色器中，并重复使用该着色器代码。请参阅重复使用着色器代码**
 
-### Decrease the size of kzb file 减少kzb文件大小
+## Decrease the size of kzb file 减少kzb文件大小
     通过删除项目不使用的内容，您可以减小项目的 kzb 文件的大小：
 - **完成项目后，最好删除项目未使用的所有资源和预制件**
 - **如果您的项目不使用资源或节点，您可以通过排除此类项目来优化 Kanzi 应用程序的大小**
