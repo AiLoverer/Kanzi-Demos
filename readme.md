@@ -340,7 +340,7 @@
 - Setting how Kanzi Engine handles unused resources.查明资源是否正在使用，并卸载未使用的资源。这允许您创建复杂的应用程序，其中并非所有资源都可以同时放入内存。
 
 # 应用程序性能和内存优化方式
-1. GPU Only  
+1. **GPU Only**  
    •描述：资源仅部署到 GPU 内存，并在部署后立即从 RAM 中释放。  
    •特点：   
    •优点：最大限度地减少了 RAM 的占用，因为资源不会保留在系统内存中。  
@@ -353,7 +353,7 @@ Texture* texture = new Texture("path/to/texture.png");
 texture->setMemoryPolicy(Texture::MEMORY_POLICY_GPU_ONLY);
 
 ```
-2. GPU and RAM   
+2. **GPU and RAM**   
    •描述：资源同时部署到 GPU 和 RAM 内存中。Kanzi 会根据平台和应用自动管理资源的加载和卸载。  
    •特点：   
    •优点：提供了更快的恢复时间，因为资源已经在 RAM 中缓存，可以在需要时快速重新部署到 GPU。  
@@ -365,7 +365,7 @@ texture->setMemoryPolicy(Texture::MEMORY_POLICY_GPU_ONLY);
 Texture* texture = new Texture("path/to/texture.png");
 texture->setMemoryPolicy(Texture::MEMORY_POLICY_GPU_AND_RAM);
 ```
-3. RAM Only  
+3. **RAM Only**  
    •描述：资源默认保留在 RAM 中，仅在应用代码明确指示时才部署到 GPU 内存中。Kanzi 会在应用代码释放资源时将其从 GPU 内存中卸载。  
    •特点：   
    •优点：节省了 GPU 内存，只有在需要时才会将资源加载到 GPU，适合动态加载和卸载资源的场景。  
@@ -391,3 +391,4 @@ texture->unloadFromGPU();
 | **GPU and RAM** | 较大 | 长期 | 较短 | 快速恢复资源需求 |
 | **RAM Only** | 较小 | 长期 | 按需 | 可变动态加载和卸载 |
 
+    通过选择合适的资源管理策略，你可以优化应用程序的性能和内存使用。如果你的应用程序对 RAM 使用非常敏感，可以选择 GPU Only；如果你需要快速恢复资源，可以选择 GPU and RAM；如果你有大量资源但不是所有资源都经常使用，可以选择 RAM Only 并按需加载。
