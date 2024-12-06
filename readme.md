@@ -1,13 +1,14 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-04 16:25:46
+ * @LastEditTime: 2024-12-06 16:44:42
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
 -->
 # 介绍
 本仓库主要是前期学习Kanzi技术的一个过程记录
+本仓库是基于Kanzi教程中特殊功能模块和案例进行学习。
 
 # 仓库分类介绍和说明
 ## 基础向导
