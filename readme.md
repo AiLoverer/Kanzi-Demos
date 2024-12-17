@@ -529,3 +529,12 @@ texture->unloadFromGPU();
 - **如果您的项目不使用资源或节点，您可以通过排除此类项目来优化 Kanzi 应用程序的大小**
 - **删除不包含任何动画的动画数据通道**
 - **删除打开项目时 Kanzi Studio 生成的临时文件**
+
+# 公共组件集合
+## ColorPicker
+    该组件实现了一个公共的颜色选择器案例。
+    - 用户通过拖动环形圈进行颜色选择
+    - 中间正方形会显示对应选择的颜色效果
+    - 整个组件有阴影效果控制-shadow effect 2d
+
+<img src="./res/bindings-color-wheel-complete.gif" alt="效果图" width="850" height="850">   
