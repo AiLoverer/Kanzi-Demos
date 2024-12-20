@@ -1,16 +1,27 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-06 16:44:42
+ * @LastEditTime: 2024-12-20 16:56:30
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
 -->
-# 介绍
-本仓库主要是前期学习Kanzi技术的一个过程记录
-本仓库是基于Kanzi教程中特殊功能模块和案例进行学习。
+<span style="color: red;">[**声明：本仓库内所有内容仅用于学习、非商业用途。如有侵权、联系删除！qq邮箱：447533920@qq.com**]</span>
 
-# 仓库分类介绍和说明
+# 介绍
+- 作者在2015年接触Kanzi进行车机IVI 和 Cluster HMI开发，当时还用的2.8版本。问题比较多。经过几年的发展Kanzi也慢慢从3.6、 3.9版本不断迭代进化。目前来说比较稳定、功能也较丰富。
+- 本仓库主要基于3.9.10进行地毯式学习和回顾。此仓库仅作为kanzi技能学习的记录。
+- 本仓库是基于Kanzi教程中特殊功能模块和案例进行学习。
+
+# 知识储备
+  Kanzi的建议具备以下几个技能点：
+  - **Kanzi Studio工具的使用**：了解Kanzi工具的不同不同模板作用和开发方式、了解常用属性和Binding使用方式等、了解触发器和常用控件使用、熟悉3D建模控件操作。
+  - **编程语言**：C/C++ 11及以上、JAVA、Kotlin （后面两个看是否有Android开发需求）。
+  - **Shader语言**：GLSL（Kanzi官方支持）、HLSL（看个人）。
+  - **OpenGL知识点**：相关API和函数的理解、渲染管线流程、光照、阴影、采样、着色器、PBR、Phone、Bloom、Ray 、Post-Process、LOD等相关知识点和原理的理解。
+  - **性能优化**：了解常用性能优化指标和优化方法或技巧。
+
+# 基础篇
 ## 基础向导
 ### Getting Started
 在本仓库的这一步中主要学习：  
