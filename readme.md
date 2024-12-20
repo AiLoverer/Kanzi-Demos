@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-20 16:56:30
+ * @LastEditTime: 2024-12-20 17:21:10
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -9,19 +9,26 @@
 <span style="color: red;">[**声明：本仓库内所有内容仅用于学习、非商业用途。如有侵权、联系删除！qq邮箱：447533920@qq.com**]</span>
 
 # 介绍
-- 作者在2015年接触Kanzi进行车机IVI 和 Cluster HMI开发，当时还用的2.8版本。问题比较多。经过几年的发展Kanzi也慢慢从3.6、 3.9版本不断迭代进化。目前来说比较稳定、功能也较丰富。
+## 背景
+    作者在2015年接触Kanzi进行车机IVI 和 Cluster HMI开发，当时还用的2.8版本。问题比较多。经过几年的发展Kanzi也慢慢从3.6、 3.9版本不断迭代进化。目前来说比较稳定、功能也较丰富。确实看到了Kanzi的进步。中途也使用过不同的HMI开发引擎，也见证了Qt Design Studio兴起，体验了Cocos、 Unity在3D应用开发上得天独厚的先天优势，因项目需要又回到Kanzi项目开发。避免后续久而生疏、故记录于此。
+## 说明
 - 本仓库主要基于3.9.10进行地毯式学习和回顾。此仓库仅作为kanzi技能学习的记录。
 - 本仓库是基于Kanzi教程中特殊功能模块和案例进行学习。
+- 一共分为：初级篇、中级篇、高级篇、终结篇。
+    - 初级篇：主要学习基础控件和基础流程、掌握Kanzi Studio的基础使用技巧。
+    - 中级篇：主要进行复杂的控件开发。
+    - 高级篇：主要针对Kanzi应用程序性能优化进行学习、在实际项目开发中性能优化往往被忽略，因引起重视，也体现开发者的技能功底。
+    - 终结篇：主要以实际开发中遇到的需求进行实践学习。
 
 # 知识储备
   Kanzi的建议具备以下几个技能点：
   - **Kanzi Studio工具的使用**：了解Kanzi工具的不同不同模板作用和开发方式、了解常用属性和Binding使用方式等、了解触发器和常用控件使用、熟悉3D建模控件操作。
   - **编程语言**：C/C++ 11及以上、JAVA、Kotlin （后面两个看是否有Android开发需求）。
   - **Shader语言**：GLSL（Kanzi官方支持）、HLSL（看个人）。
-  - **OpenGL知识点**：相关API和函数的理解、渲染管线流程、光照、阴影、采样、着色器、PBR、Phone、Bloom、Ray 、Post-Process、LOD等相关知识点和原理的理解。
+  - **OpenGL知识点**：相关API和函数的理解、渲染管线流程、光照、阴影、MSAA采样、着色器、PBR、Phone、Bloom、Ray 、Post-Process、LOD等相关知识点和原理的理解。
   - **性能优化**：了解常用性能优化指标和优化方法或技巧。
 
-# 基础篇
+# 初级篇
 ## 基础向导
 ### Getting Started
 在本仓库的这一步中主要学习：  
@@ -331,8 +338,18 @@
 
 <img src="./res/code-behind-drag-widgets.gif" alt="效果图" width="850" height="320">   
 
+# 中级篇-公共组件
+## ColorPicker
+    该组件实现了一个公共的颜色选择器案例。
+    - 用户通过拖动环形圈进行颜色选择
+    - 中间正方形会显示对应选择的颜色效果
+    - 整个组件有阴影效果控制-shadow effect 2d
 
-# 应用程序性能和内存优化方式
+<img src="./res/bindings-color-wheel-complete.gif" alt="效果图" width="850" height="850"> 
+
+
+# 高级篇-Performance Optimize 性能优化
+## 应用程序性能和内存优化方式
 1. **GPU Only**  
    •描述：资源仅部署到 GPU 内存，并在部署后立即从 RAM 中释放。  
    •特点：   
@@ -385,8 +402,6 @@ texture->unloadFromGPU();
 | **RAM Only** | 较小 | 长期 | 按需 | 可变动态加载和卸载 |
 
     通过选择合适的资源管理策略，你可以优化应用程序的性能和内存使用。如果你的应用程序对 RAM 使用非常敏感，可以选择 GPU Only；如果你需要快速恢复资源，可以选择 GPU and RAM；如果你有大量资源但不是所有资源都经常使用，可以选择 RAM Only 并按需加载。
-
-# Performance 性能
 ## 测量应用程序的性能范围
     Kanzi性能分析系统使您能够度量Kanzi应用程序的性能。您可以测量以下性能：
 - 在应用程序启动和运行时。
@@ -541,11 +556,8 @@ texture->unloadFromGPU();
 - **删除不包含任何动画的动画数据通道**
 - **删除打开项目时 Kanzi Studio 生成的临时文件**
 
-# 公共组件集合
-## ColorPicker
-    该组件实现了一个公共的颜色选择器案例。
-    - 用户通过拖动环形圈进行颜色选择
-    - 中间正方形会显示对应选择的颜色效果
-    - 整个组件有阴影效果控制-shadow effect 2d
+# 终结篇 IVI和Cluster实战
 
-<img src="./res/bindings-color-wheel-complete.gif" alt="效果图" width="850" height="850">   
+
+
+  
