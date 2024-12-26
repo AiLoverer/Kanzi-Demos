@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-20 17:21:10
+ * @LastEditTime: 2024-12-26 11:19:22
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -338,8 +338,8 @@
 
 <img src="./res/code-behind-drag-widgets.gif" alt="效果图" width="850" height="320">   
 
-# 中级篇-公共组件
-## ColorPicker
+# 中级篇-公共组件和插件
+## 公共组件1-ColorPicker
     该组件实现了一个公共的颜色选择器案例。
     - 用户通过拖动环形圈进行颜色选择
     - 中间正方形会显示对应选择的颜色效果
@@ -347,6 +347,25 @@
 
 <img src="./res/bindings-color-wheel-complete.gif" alt="效果图" width="850" height="850"> 
 
+## 插件1-Kanzi Particles 粒子系统
+本仓库的这一步中主要学习如何使用Kanzi粒子系统，这个只能自己去实践，各种粒子参数的调节熟悉之后才能做出想要的效果！  
+学习Kanzi粒子系统，首先要了解粒子系统相关概率：
+- 粒子发射器 
+- 粒子反应器
+- 如何安装Kanzi粒子系统和插件
+- 粒子系统使用注意事项   
+<span style="color: red;">[**有些引擎的粒子系统和Kanzi粒子系统有差异，但殊途同归！**]</span>  
+
+### Trajectory Bloom
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/LogoEffect/Trajectory Bloom   
+<span style="color: green;">[**主要内容：根据Spline曲线进行粒子发射和拖尾效果展示**]</span>  
+本示例涉及知识点：
+- Particle System
+- Particle Trail Emitter
+- Particle Trajectory Emitter 
+- Particle Curl Affector 
+- Spline Trajectory  
+<img src="./res/Trajectory Bloom.gif" alt="效果图" width="850" height="350">  
 
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
