@@ -356,7 +356,7 @@
 - 粒子系统使用注意事项   
 <span style="color: red;">[**有些引擎的粒子系统和Kanzi粒子系统有差异，但殊途同归！**]</span>  
 
-### Trajectory Bloom
+### Trajectory Bloom Effect
 该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/LogoEffect/Trajectory Bloom   
 <span style="color: green;">[**主要内容：根据Spline曲线进行粒子发射和拖尾效果展示**]</span>  
 本示例涉及知识点：
@@ -366,6 +366,18 @@
 - Particle Curl Affector 
 - Spline Trajectory  
 <img src="./res/Trajectory Bloom.gif" alt="效果图" width="850" height="350">  
+
+### Logo 3D Effect
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/LogoEffect/NewLogo3D  
+<span style="color: green;">[**主要内容：根据Spline曲线进行3D LOGO 数字R粒子发射和拖尾效果展示**]</span>  
+本示例涉及知识点：
+- Particle System
+- Particle Trail Emitter
+- Particle Trajectory Emitter 
+- Particle Curl Affector 
+- Spline Trajectory  
+
+<img src="./res/Logo3D Effect.gif" alt="效果图" width="850" height="350">  
 
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
