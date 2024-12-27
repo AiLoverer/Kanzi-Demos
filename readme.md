@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-26 11:19:22
+ * @LastEditTime: 2024-12-27 10:53:00
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -377,7 +377,16 @@
 - Particle Curl Affector 
 - Spline Trajectory  
 
-<img src="./res/Logo3D Effect.gif" alt="效果图" width="850" height="350">  
+### Trails Effect
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/LogoEffect/NewLogo3D  
+<span style="color: green;">[**主要内容：根据Box 发射器和trail 反应器进行拖尾效果展示**]</span>  
+本示例涉及知识点：
+- Particle System  
+- Particle Trail Emitter  
+- Particle Curl Affector  
+- Particle Force Affector  
+
+<img src="./res/trails.gif" alt="效果图" width="850" height="350">  
 
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
