@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-27 10:53:00
+ * @LastEditTime: 2024-12-30 11:36:37
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -372,6 +372,7 @@
 <span style="color: green;">[**主要内容：根据Spline曲线进行3D LOGO 数字R粒子发射和拖尾效果展示**]</span>  
 本示例涉及知识点：
 - Particle System
+- Particle Mesh Emitter
 - Particle Trail Emitter
 - Particle Trajectory Emitter 
 - Particle Curl Affector 
@@ -382,11 +383,22 @@
 <span style="color: green;">[**主要内容：根据Box 发射器和trail 反应器进行拖尾效果展示**]</span>  
 本示例涉及知识点：
 - Particle System  
+- Particle Box Emitter
 - Particle Trail Emitter  
 - Particle Curl Affector  
 - Particle Force Affector  
 
 <img src="./res/trails.gif" alt="效果图" width="850" height="350">  
+
+### Waves Effect
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/Backgrounds/Waves   
+<span style="color: green;">[**主要内容：根据Box 发射器和Curl 反应器进行海浪效果展示**]</span>  
+本示例涉及知识点：
+- Particle System  
+- Particle Box Emitter
+- Particle Curl Affector  
+
+<img src="./res/Waves.gif" alt="效果图" width="850" height="350">  
 
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
