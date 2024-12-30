@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-30 11:36:37
+ * @LastEditTime: 2024-12-30 15:55:25
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -399,6 +399,16 @@
 - Particle Curl Affector  
 
 <img src="./res/Waves.gif" alt="效果图" width="850" height="350">  
+
+### CrazyOverdraw Effect
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/Backgrounds/CrazyOverdraw  
+<span style="color: green;">[**主要内容：根据Box 发射器和旋转反应器进行旋风效果展示**]</span>  
+本示例涉及知识点：
+- Particle System  
+- Particle Box Emitter
+- Particle Vortex Affector  
+
+<img src="./res/CrazyOverdraw.gif" alt="效果图" width="850" height="350">  
 
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
