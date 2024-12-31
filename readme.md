@@ -410,6 +410,17 @@
 
 <img src="./res/CrazyOverdraw.gif" alt="效果图" width="850" height="350">  
 
+### Morph Effect
+该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/Morphs/Morph    
+<span style="color: green;">[**主要内容：传统表盘和现代表盘粒子切换效果展示**]</span>  
+本示例涉及知识点：
+- Particle System  
+- Particle Box Emitter
+- Particle Mesh Affector
+- Particle Curl Affector  
+
+<img src="./res/Morph.gif" alt="效果图" width="850" height="350">  
+
 # 高级篇-Performance Optimize 性能优化
 ## 应用程序性能和内存优化方式
 1. **GPU Only**  
