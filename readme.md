@@ -1,7 +1,7 @@
 <!--
  * @Author: XQ
  * @Date: 2024-11-19 10:37:22
- * @LastEditTime: 2024-12-30 15:55:25
+ * @LastEditTime: 2025-04-08 16:44:22
  * @LastEditors: XQ
  * @Description: 
  * @FilePath: \undefinedd:\xuqiang\github\Kanzi-Demos\readme.md
@@ -377,6 +377,7 @@
 - Particle Trajectory Emitter 
 - Particle Curl Affector 
 - Spline Trajectory  
+- <img src="./res/Logo3D Effect.gif" alt="效果图" width="850" height="350">  
 
 ### Trails Effect
 该项目在Particles目录：kzb://particales/Screens/Screen/RootPage/LogoEffect/NewLogo3D  
